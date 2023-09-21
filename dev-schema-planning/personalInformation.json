@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "title": "Basic Information",
+            "icon": "Profile",
+            "layout": "card",
+            "data": {
+                "full_name": "Al Emran",
+                "health_insurance": "Yes",
+                "social_insurance": 4476,
+                "date_of_birth": "10 July 1990",
+                "gender": "Male",
+                "phone_number": "0177777777",
+                "nationality": "Bangladesh",
+                "marital_status": "Married",
+                "shirt_size": "Medium",
+                "email_address": "help@gmail.com",
+                "personal_tax_id": "800-90804490"
+            }
+        },
+        {
+            "title": "Address",
+            "icon": "Location",
+            "layout": "card",
+            "data": {
+                "primary_address": "7613 Marlborough Road",
+                "state/province": "Ontario",
+                "postal_code": "L4T 3A7",
+                "country": "Canada",
+                "city": "Mississauga"
+            }
+        },
+        {
+            "title": "Visa Information",
+            "icon": "Certificate",
+            "layout": "table",
+            "data": [
+                {
+                    "date": "10 July 1990",
+                    "visa": "Tourist",
+                    "issuing_country": "USA",
+                    "issued": "10 July 1990",
+                    "expiration": "10 July 1990",
+                    "status": "Current",
+                    "note": "Canadian Citizenship"
+                },
+                {
+                    "date": "10 July 1990",
+                    "visa": "Tourist",
+                    "issuing_country": "USA",
+                    "issued": "10 July 1990",
+                    "expiration": "10 July 1990",
+                    "status": "Expired",
+                    "note": "Canadian Citizenship"
+                }
+            ]
+        }
+    ]
+}
