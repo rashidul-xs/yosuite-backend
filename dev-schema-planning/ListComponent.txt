@@ -1,0 +1,22 @@
+<List>
+    <Heading></Heading>
+    <container>
+        if(in_array('filterForm', self.innerComponents))
+            <filterForm>
+                <Field1></Field1>
+            </filterForm>
+        endif
+
+        if(in_array('LeftSidebar', self.innerComponents))
+            <LeftSidebar></LeftSidebar>
+        endif
+
+        if(in_array('LeftSidebar', self.innerComponents))
+            <Table></Table>
+        endif
+
+        if(in_array('LeftSidebar', self.innerComponents))
+            <RightSidebar></RightSidebar>
+        endif
+    </container>
+</List>

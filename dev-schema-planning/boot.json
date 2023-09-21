@@ -1,0 +1,76 @@
+{
+  "responseType": "success",
+  "data": {
+    "system": {
+      "frontendVersion": "1.1.1",
+      "apiVersion": "1.1.1",
+      "lastServerUpdated": "1693717770398",
+      "lastLocalUpdated": "1693717770398"
+    },
+    "workspace": {
+      "workspaceId": "35sg4ds3g4235sdg4",
+      "siteUrl": "hr.yosuite.ai",
+      "siteTitle": "YoSuite",
+      "siteTagline": "The most innovative hr software you have ever seen, yo man yo!",
+      "lastUpdated": "1693717770398"
+    },
+    "user": {
+      "userId": "8dfg4df56g7",
+      "roleId": "ers4f35ds7f",
+      "name": "Salekin",
+      "avatar": "https://cdn.yosuite.com/myavatar.png",
+      "email": "salekin@gmail.com",
+      "lastUpdated": "1693717770398"
+    },
+    "routes": [
+      {
+        "path": "/",
+        "label": "Dashboard",
+        "labelStyle": {
+          "textColor": "#ff00bb"
+        },
+        "layoutComponent": "Details",
+        "innerComponents": [
+          "Table",
+          "RightSidebar",
+          "HistoryTimeline",
+          "Directory",
+          "ProfilePersonal"
+        ]
+      },
+      {
+        "path": "/people",
+        "label": "People",
+        "layoutComponent": "Details",
+        "innerComponents": [
+          "FilterForm",
+          "Table",
+          "RightSidebar"
+        ],
+        "labelStyle": {
+          "textColor": "#ff00bb"
+        },
+        "children": [
+          {
+            "path": "/people/:peopleId",
+            "label": "People",
+            "labelStyle": {
+              "textColor": "#ff00bb"
+            },
+            "layoutComponent": "Details",
+            "innerComponents": [
+              "MultiCards",
+              "RightSidebar",
+              "History",
+              "ProfilePersonal"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "message": [
+    "Successfully fetched"
+  ],
+  "traceCode": "c3VjY2Vzc2Z1bGx5IGZldGNoZWQu"
+}
