@@ -1,3 +1,10 @@
 {
-  "cols": 2
+  "responseType": "success",
+  "data": {
+   "col": 2
+  },
+  "message": [
+    "Successfully fetched"
+  ],
+  "traceCode": "c3VjY2Vzc2Z1bGx5IGZldGNoZWQu"
 }
