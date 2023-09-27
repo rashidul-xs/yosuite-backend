@@ -29,7 +29,7 @@
         "label": "Dashboard",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "HistoryTimeline": "HistoryTimeline",
+          "TimelineHistory": "TimelineHistory",
           "RightSidebar": "RightSidebar"
         }
       },
@@ -74,7 +74,7 @@
       },
       {
         "label": "People",
-        "icon": "People",
+        "icon": "Company",
         "url": null,
         "target": "_self",
         "style": {
