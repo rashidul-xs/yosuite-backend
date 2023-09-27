@@ -1,0 +1,177 @@
+{
+  "responseType": "success",
+  "data": [
+    {
+      "label": "04 January 2023",
+      "timeline": [
+        {
+          "title": "04 january",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "25 january",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "10 february",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        },
+        {
+          "title": "27 february",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "16 march",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        },
+        {
+          "title": "22 march",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "08 December 2023",
+      "timeline": [
+        {
+          "title": "04 january",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "25 january",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "10 february",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        },
+        {
+          "title": "27 february",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "16 march",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        },
+        {
+          "title": "22 march",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "02 January 2024",
+      "timeline": [
+        {
+          "title": "04 january",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "25 january",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "10 february",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        },
+        {
+          "title": "27 february",
+          "contents": [
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\".",
+            "Employee Status was changed from \"On Leave\" to \"Active\".",
+            "Employee Status was changed from \"Active\" to \"On Leave\"."
+          ]
+        },
+        {
+          "title": "16 march",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        },
+        {
+          "title": "22 march",
+          "contents": [
+            "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+            "Department was changed from \"HR\" to \"IT\".",
+            "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+          ]
+        }
+      ]
+    }
+  ],
+  "message": [
+    "Successfully fetched"
+  ],
+  "traceCode": "c3VjY2Vzc2Z1bGx5IGZldGNoZWQu"
+}
