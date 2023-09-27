@@ -1,5 +1,8 @@
+import { elements } from "./formElements";
+
 let form = {
   submissionUrl: "https://jsonplaceholder.typicode.com/posts",
+  method: "POST",
   elements: [
     {
       component: "Row",
@@ -11,46 +14,14 @@ let form = {
           component: "Col",
           size: 12,
           childElements: [
-            {
-              component: "Input",
-              title: "First Name",
-              name: "first_name",
-              defaultValue: "John Doe",
-              helpText: "this is tooltip or help text",
-              rules: 'required|min:5|max:10',
-              props: { // supported props for component
-                placeholder: "Enter your name",
-                prefix: "ProfileOutline",
-                style: {
-                  backgroundColor: "blue",
-                  borderColor: "gray"
-                }
-              }
-            }
+            elements.input
           ]
         },
         {
           component: "Col",
           size: 12,
           childElements: [
-            {
-              component: "Select",
-              title: "Select your country",
-              name: "country",
-              defaultValue: "demo",
-              props: {
-                options: [
-                  {
-                    "label": "demo",
-                    "value": "demo"
-                  },
-                  {
-                    "label": "demo2",
-                    "value": "demo2"
-                  }
-                ]
-              }
-            }
+            elements.select
           ]
         }
       ]
@@ -65,17 +36,7 @@ let form = {
           component: "Col",
           size: 24,
           childElements: [
-            {
-              component: "Alert",
-              props: { // supported props for component
-                title: "Alert title",
-                description: "Alert description",
-                style: {
-                  backgroundColor: "blue",
-                  borderColor: "gray"
-                }
-              }
-            }
+            elements.alert
           ]
         }
       ]

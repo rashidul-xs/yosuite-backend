@@ -16,6 +16,7 @@
     },
     "user": {
       "userId": "8dfg4df56g7",
+      "role": "admin",
       "roleId": "ers4f35ds7f",
       "name": "Salekin",
       "avatar": "https://cdn.yosuite.com/myavatar.png",
@@ -26,44 +27,162 @@
       {
         "path": "/",
         "label": "Dashboard",
-        "labelStyle": {
-          "textColor": "#ff00bb"
-        },
-        "layoutComponent": "Details",
-        "innerComponents": [
-          "Table",
-          "RightSidebar",
-          "HistoryTimeline",
-          "Directory",
-          "ProfilePersonal"
-        ]
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "HistoryTimeline": "HistoryTimeline",
+          "RightSidebar": "RightSidebar"
+        }
       },
       {
-        "path": "/people",
+        "path": "/people/profile",
+        "label": "Profile",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "BasicInformationCard": "InformationCard",
+          "AddressInformationCard": "InformationCard",
+          "VisaInformationTable": "InformationTable",
+          "LeftSidebar": "LeftSidebar"
+        }
+      },
+      {
+        "path": "/people/usersGrid",
+        "label": "Users",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "UserGrid": "UserGrid"
+        }
+      },
+      {
+        "path": "/people/usersTable",
+        "label": "Users",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "UserTable": "UserTable"
+        }
+      }
+    ],
+    "mainSidebar": [
+      {
+        "label": "Dashboard",
+        "icon": "Dashboard",
+        "url": "/",
+        "target": "_self",
+        "style": {
+          "color": "#fwx00bb"
+        },
+        "children": null
+      },
+      {
         "label": "People",
-        "layoutComponent": "Details",
-        "innerComponents": [
-          "FilterForm",
-          "Table",
-          "RightSidebar"
-        ],
-        "labelStyle": {
-          "textColor": "#ff00bb"
+        "icon": "People",
+        "url": null,
+        "target": "_self",
+        "style": {
+          "color": "#ff00bb"
         },
         "children": [
           {
-            "path": "/people/:peopleId",
-            "label": "People",
-            "labelStyle": {
-              "textColor": "#ff00bb"
+            "label": "Profile",
+            "icon": null,
+            "url": "/people/profile",
+            "target": "_self",
+            "style": {
+              "color": "#ff00bb"
             },
-            "layoutComponent": "Details",
-            "innerComponents": [
-              "MultiCards",
-              "RightSidebar",
-              "History",
-              "ProfilePersonal"
-            ]
+            "children": null
+          },
+          {
+            "label": "Users",
+            "icon": null,
+            "url": "/people/usersGrid",
+            "target": "_self",
+            "style": null,
+            "children": null
+          },
+          {
+            "label": "Users",
+            "icon": null,
+            "url": "/people/usersTable",
+            "target": "_self",
+            "style": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "label": "Your Company",
+        "type": "group",
+        "icon": "Company",
+        "url": null,
+        "target": "_self",
+        "style": {
+          "color": "#ff00bb"
+        },
+        "children": [
+          {
+            "label": "Profile",
+            "icon": null,
+            "url": "/people/profile",
+            "target": "_self",
+            "style": {
+              "color": "#ff00bb"
+            },
+            "children": null
+          },
+          {
+            "label": "Users",
+            "icon": null,
+            "url": "/people/usersGrid",
+            "target": "_self",
+            "style": null,
+            "children": null
+          },
+          {
+            "label": "Users",
+            "icon": null,
+            "url": "/people/usersTable",
+            "target": "_self",
+            "style": {
+              "color": "#ff00bb"
+            },
+            "children": null
+          }
+        ]
+      }
+    ],
+    "topRightMenu": [
+      {
+        "label": "text",
+        "icon": "box",
+        "style": {
+          "color": "#f00"
+        },
+        "url": "/people/82",
+        "target": "_self"
+      },
+      {
+        "label": "text",
+        "icon": "box",
+        "url": "/people/82",
+        "target": "_self",
+        "children": [
+          {
+            "label": "text",
+            "icon": "box",
+            "style": {
+              "color": "#f00"
+            },
+            "url": "/people/82",
+            "target": "_self"
+          },
+          {
+            "label": "text",
+            "icon": "box",
+            "style": {
+              "color": "#f00"
+            },
+            "url": "/people/82",
+            "target": "_self"
           }
         ]
       }
