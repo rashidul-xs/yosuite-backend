@@ -11,6 +11,11 @@ app.use(cors({
   origin: '*',
 }));
 
+//add a / route to serve the hello world message
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
 // Define a route to serve JSON files based on the API endpoint
 app.get('/api/:fileName', (req, res) => {
   const fileName = req.params.fileName;
