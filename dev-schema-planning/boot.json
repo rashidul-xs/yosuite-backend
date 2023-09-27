@@ -29,7 +29,7 @@
         "label": "Dashboard",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "HistoryTimeline": "HistoryTimeline",
+          "TimelineHistory": "TimelineHistory",
           "RightSidebar": "RightSidebar"
         }
       },
