@@ -7,14 +7,12 @@ const structures = {
       marginBottom: 24,
       backgroundColor: '#fff',
     },
-    actions: [
-      {
-        label: 'Edit',
-        icon: 'Edit',
-        targetComponent: 'Form',
-        placement: 'topRight'
-      }
-    ]
+    actionsButton: {
+      label: 'Edit',
+      icon: 'Edit',
+      targetComponent: 'Form',
+      placement: 'top'
+    }
   },
   InformationTable: {
     title: 'Visa Information',
@@ -22,13 +20,11 @@ const structures = {
     styles: {
       backgroundColor: '#fff',
     },
-    actions: [
-      {
-        label: 'Add New',
-        icon: 'Edit',
-        targetComponent: 'Form',
-        placement: 'bottomRight'
-      }
-    ]
+    actionsButton: {
+      label: 'Add New',
+      icon: 'Plus',
+      targetComponent: 'Form',
+      placement: 'top'
+    }
   },
 }
