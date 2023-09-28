@@ -3,15 +3,18 @@
   "data": [
     {
       "label": "Profile",
-      "url": "/people/profile"
+      "url": "/people/profile",
+      "key": "profile"
     },
     {
-      "label": "Settings",
-      "url": "/people/settings"
+      "label": "User Grid",
+      "url": "/people/manage_employee",
+      "key": "userGrid"
     },
     {
       "label": "Logout",
-      "url": "/people/logout"
+      "url": "/people/logout",
+      "key": "logout"
     }
   ],
   "message": [
