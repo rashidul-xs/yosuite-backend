@@ -38,7 +38,7 @@
         "label": "Profile",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "Heading": "Heading",
+          "ProfilePageHeading": "Heading",
           "Breadcrumb": "Breadcrumb",
           "NavigationBar": "NavigationBar",
           "BasicInformationCard": "InformationCard",
@@ -57,6 +57,7 @@
         "label": "Manage Employee",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
+          "NavigationBar": "NavigationBar",
           "UserGrid": "UserGrid"
         }
       },

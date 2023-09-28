@@ -1,0 +1,24 @@
+{
+  "responseType": "success",
+  "data": [
+    {
+      "label": "Profile",
+      "url": "/people/profile",
+      "key": "profile"
+    },
+    {
+      "label": "User Grid",
+      "url": "/people/manage_employee",
+      "key": "userGrid"
+    },
+    {
+      "label": "Logout",
+      "url": "/people/logout",
+      "key": "logout"
+    }
+  ],
+  "message": [
+    "Successfully fetched"
+  ],
+  "traceCode": "c3VjY2Vzc2Z1bGx5IGZldGNoZWQu"
+}
