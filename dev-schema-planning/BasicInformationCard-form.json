@@ -3,6 +3,10 @@
   "data": {
     "submissionUrl": "https://jsonplaceholder.typicode.com/posts",
     "method": "POST",
+    "formHeader":{
+      "title": "Basic Information",
+      "icon": "ProfileDefault"
+    },
     "elements": [
       {
         "component": "Row",
@@ -22,12 +26,7 @@
                 "helpText": "this is tooltip or help text",
                 "rules": "required|min:5|max:10",
                 "props": { 
-                "placeholder": "Enter your name",
-                "prefix": "ProfileOutline",
-                "style": {
-                "backgroundColor": "blue",
-                "borderColor": "gray"
-                  }
+                "placeholder": "Enter your name"
                 }
               }
             ]
