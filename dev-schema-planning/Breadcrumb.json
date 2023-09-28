@@ -1,0 +1,22 @@
+{
+  "responseType": "success",
+  "data": [
+    {
+      "title": "Home",
+      "icon": "Dashboard",
+      "url": "/"
+    },
+    {
+      "title": "Profile",
+      "url": "/people/profile"
+    },
+    {
+      "title": "Directory",
+      "url": ""
+    }
+  ],
+  "message": [
+    "Successfully fetched"
+  ],
+  "traceCode": "c3VjY2Vzc2Z1bGx5IGZldGNoZWQu"
+}

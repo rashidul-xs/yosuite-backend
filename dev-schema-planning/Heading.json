@@ -1,0 +1,11 @@
+{
+  "responseType": "success",
+  "data": {
+    "pageTitle": "Title People",
+    "pageHeading": "People"
+  },
+  "message": [
+    "Successfully fetched"
+  ],
+  "traceCode": "c3VjY2Vzc2Z1bGx5IGZldGNoZWQu"
+}

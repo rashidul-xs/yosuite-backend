@@ -38,23 +38,38 @@
         "label": "Profile",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
+          "Heading": "Heading",
+          "Breadcrumb": "Breadcrumb",
+          "NavigationBar": "NavigationBar",
           "BasicInformationCard": "InformationCard",
           "AddressInformationCard": "InformationCard",
+          "EmergencyInformationCard": "InformationCard",
+          "BankInformationCard": "InformationCard",
+          "EducationInformationCard": "InformationCard",
+          "SocialInformationCard": "InformationCard",
           "VisaInformationTable": "InformationTable",
-          "LeftSidebar": "LeftSidebar"
+          "RightSidebar": "RightSidebar"
         }
       },
       {
-        "path": "/people/usersGrid",
-        "label": "Users",
+        "path": "/people/manage_employee",
+        "label": "Manage Employee",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
           "UserGrid": "UserGrid"
         }
       },
       {
-        "path": "/people/usersTable",
-        "label": "Users",
+        "path": "/people/directory",
+        "label": "Directory",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "UserTable": "UserTable"
+        }
+      },
+      {
+        "path": "/people/org_chart",
+        "label": "Org Chart",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
           "UserTable": "UserTable"
@@ -77,32 +92,34 @@
         "icon": "Company",
         "url": null,
         "target": "_self",
-        "style": {
-          "color": "#ff00bb"
-        },
         "children": [
           {
             "label": "Profile",
             "icon": null,
             "url": "/people/profile",
             "target": "_self",
-            "style": {
-              "color": "#ff00bb"
-            },
             "children": null
           },
           {
-            "label": "Users",
+            "label": "Manage Employee",
             "icon": null,
-            "url": "/people/usersGrid",
+            "url": "/people/manage_employee",
             "target": "_self",
             "style": null,
             "children": null
           },
           {
-            "label": "Users",
+            "label": "Directory",
             "icon": null,
-            "url": "/people/usersTable",
+            "url": "/people/directory",
+            "target": "_self",
+            "style": null,
+            "children": null
+          },
+          {
+            "label": "Org Chart",
+            "icon": null,
+            "url": "/people/org_chart",
             "target": "_self",
             "style": null,
             "children": null
