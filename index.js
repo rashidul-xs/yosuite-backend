@@ -19,7 +19,9 @@ app.get('/', (req, res) => {
 // Define a route to serve JSON files based on the API endpoint
 app.get('/api/:fileName', (req, res) => {
   const fileName = req.params.fileName;
+  
   const filePath = path.join(__dirname, 'dev-schema-planning', `${fileName}.json`);
+  console.log(filePath);
 
   // Check if the file exists
   if (fs.existsSync(filePath)) {
