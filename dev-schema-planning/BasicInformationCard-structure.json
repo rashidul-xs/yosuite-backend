@@ -8,14 +8,12 @@
       "marginBottom": 24,
       "backgroundColor": "#fff"
     },
-    "actions": [
-      {
-        "label": "Edit",
-        "icon": "Edit",
-        "targetComponent": "Form",
-        "placement": "topRight"
-      }
-    ]
+    "actionsButton": {
+      "label": "Edit",
+      "icon": "Edit",
+      "targetComponent": "Form",
+      "placement": "top"
+    }
   },
   "message": [
     "Successfully fetched"
