@@ -1,0 +1,21 @@
+{
+  "responseType": "success",
+  "data": [
+    {
+      "label": "Profile",
+      "url": "/people/profile"
+    },
+    {
+      "label": "Settings",
+      "url": "/people/settings"
+    },
+    {
+      "label": "Logout",
+      "url": "/people/logout"
+    }
+  ],
+  "message": [
+    "Successfully fetched"
+  ],
+  "traceCode": "c3VjY2Vzc2Z1bGx5IGZldGNoZWQu"
+}

@@ -1,7 +1,21 @@
 {
   "responseType": "success",
   "data": {
-   "col": 2
+    "title": "Basic Information",
+    "icon": "ProfileFill",
+    "cols": 3,
+    "styles": {
+      "marginBottom": 24,
+      "backgroundColor": "#fff"
+    },
+    "actions": [
+      {
+        "label": "Edit",
+        "icon": "Edit",
+        "targetComponent": "Form",
+        "placement": "topRight"
+      }
+    ]
   },
   "message": [
     "Successfully fetched"

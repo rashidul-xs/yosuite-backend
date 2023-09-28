@@ -38,10 +38,12 @@
         "label": "Profile",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
+          "ProfilePageHeading": "Heading",
+          "NavigationBar": "NavigationBar",
           "BasicInformationCard": "InformationCard",
           "AddressInformationCard": "InformationCard",
           "VisaInformationTable": "InformationTable",
-          "LeftSidebar": "LeftSidebar"
+          "RightSidebar": "RightSidebar"
         }
       },
       {
@@ -49,6 +51,7 @@
         "label": "Users",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
+          "NavigationBar": "NavigationBar",
           "UserGrid": "UserGrid"
         }
       },
