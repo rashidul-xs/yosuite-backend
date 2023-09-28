@@ -48,6 +48,7 @@
           "EducationInformationCard": "InformationCard",
           "SocialInformationCard": "InformationCard",
           "VisaInformationTable": "InformationTable",
+          "TimelineHistory": "HistoryTimeline",
           "RightSidebar": "RightSidebar"
         }
       },
