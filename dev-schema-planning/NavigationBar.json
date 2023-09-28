@@ -9,7 +9,7 @@
     {
       "label": "User Grid",
       "url": "/people/manage_employee",
-      "key": "userGrid"
+      "key": "manage_employee"
     },
     {
       "label": "Logout",
