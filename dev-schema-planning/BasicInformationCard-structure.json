@@ -2,7 +2,7 @@
   "responseType": "success",
   "data": {
     "title": "Basic Information",
-    "icon": "ProfileFill",
+    "icon": "Profile",
     "cols": 3,
     "styles": {
       "marginBottom": 24,
@@ -10,7 +10,7 @@
     },
     "actionButton": {
       "label": "Edit",
-      "icon": "Edit",
+      "icon": "EditOutline",
       "targetComponent": "Form",
       "placement": "top"
     }
