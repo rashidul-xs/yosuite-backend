@@ -37,6 +37,42 @@
             "size": 12,
             "childElements": [
               {
+                "component": "Input",
+                "title": "First Name",
+                "label": "First Name",
+                "name": "first_name",
+                "defaultValue": "John Doe",
+                "helpText": "this is tooltip or help text",
+                "rules": "required|min:5|max:10",
+                "props": { 
+                "placeholder": "Enter your name"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Col",
+            "size": 12,
+            "childElements": [
+              {
+                "component": "Input",
+                "title": "First Name",
+                "label": "First Name",
+                "name": "first_name",
+                "defaultValue": "John Doe",
+                "helpText": "this is tooltip or help text",
+                "rules": "required|min:5|max:10",
+                "props": { 
+                "placeholder": "Enter your name"
+                }
+              }
+            ]
+          },
+          {
+            "component": "Col",
+            "size": 12,
+            "childElements": [
+              {
                 "component": "Select",
                 "label": "Country",
                 "title": "Select your country",
