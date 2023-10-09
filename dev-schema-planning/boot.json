@@ -155,16 +155,6 @@
                         "target": "_self",
                         "style": null,
                         "children": null
-                    },
-                    {
-                        "label": "Users",
-                        "icon": null,
-                        "url": "/people/usersTable",
-                        "target": "_self",
-                        "style": {
-                            "color": "#ff00bb"
-                        },
-                        "children": null
                     }
                 ]
             }
