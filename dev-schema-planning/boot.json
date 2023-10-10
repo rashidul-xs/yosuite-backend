@@ -74,7 +74,10 @@
                 "label": "Org Chart",
                 "layoutComponent": "CommonLayout",
                 "innerComponents": {
-                    "UserTable": "UserTable"
+                    "ProfilePageHeading": "Heading",
+                    "Breadcrumb": "Breadcrumb",
+                    "NavigationBar": "NavigationBar",
+                    "PeopleTable": "PeopleTable"
                 }
             }
         ],
