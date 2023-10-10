@@ -28,179 +28,180 @@
     },
     "routes": [
       {
-          "path": "/",
-          "label": "Dashboard",
-          "layoutComponent": "CommonLayout",
-          "innerComponents": {
-              "timeline": "TimelineHistory",
-              "RightSidebar": "RightSidebar"
-          }
+        "path": "/",
+        "label": "Dashboard",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "timeline": "TimelineHistory",
+          "RightSidebar": "RightSidebar"
+        }
       },
       {
-          "path": "/people/profile",
-          "label": "Profile",
-          "layoutComponent": "CommonLayout",
-          "innerComponents": {
-              "header": "Heading",
-              "breadcrumb": "Breadcrumb",
-              "navigationBar": "NavigationBar",
-              "BasicInformationCard": "InformationCard",
-              "AddressInformationCard": "InformationCard",
-              "EmergencyInformationCard": "InformationCard",
-              "BankInformationCard": "InformationCard",
-              "EducationInformationCard": "InformationCard",
-              "SocialInformationCard": "InformationCard",
-              "VisaInformationTable": "InformationTable",
-              "timeline": "HistoryTimeline",
-              "RightSidebar": "RightSidebar"
-          }
+        "path": "/people/profile",
+        "label": "Profile",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "header": "Heading",
+          "breadcrumb": "Breadcrumb",
+          "navigationBar": "NavigationBar",
+          "BasicInformationCard": "InformationCard",
+          "AddressInformationCard": "InformationCard",
+          "EmergencyInformationCard": "InformationCard",
+          "BankInformationCard": "InformationCard",
+          "EducationInformationCard": "InformationCard",
+          "SocialInformationCard": "InformationCard",
+          "VisaInformationTable": "InformationTable",
+          "timeline": "HistoryTimeline",
+          "RightSidebar": "RightSidebar"
+        }
       },
       {
-          "path": "/people/manage_employee",
-          "label": "Manage Employee",
-          "layoutComponent": "CommonLayout",
-          "innerComponents": {
-              "NavigationBar": "NavigationBar",
-              "UserGrid": "UserGrid"
-          }
+        "path": "/people/manage_employee",
+        "label": "Manage Employee",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "NavigationBar": "NavigationBar",
+          "UserGrid": "UserGrid"
+        }
       },
       {
-          "path": "/people/directory",
-          "label": "Directory",
-          "layoutComponent": "CommonLayout",
-          "innerComponents": {
-              "UserTable": "UserTable"
-          }
+        "path": "/people/directory",
+        "label": "Directory",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "Org_chart": "OrgChart"
+        }
       },
       {
-          "path": "/people/org_chart",
-          "label": "Org Chart",
-          "layoutComponent": "CommonLayout",
-          "innerComponents": {
-              "header": "Heading",
-              "breadcrumb": "Breadcrumb",
-              "navigationBar": "NavigationBar",
-              "PeopleCards": "PeopleTable"
-          }
+        "path": "/people/org_chart",
+        "label": "Org Chart",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "ProfilePageHeading": "Heading",
+          "Breadcrumb": "Breadcrumb",
+          "NavigationBar": "NavigationBar",
+          "PeopleCards": "PeopleCards",
+          "PeopleTable": "PeopleTable"
+        }
       }
-  ],
-  "mainSidebar": [
+    ],
+    "mainSidebar": [
       {
-          "label": "Dashboard",
-          "icon": "Dashboard",
-          "url": "/",
-          "target": "_self",
-          "style": {
-              "color": "#fwx00bb"
+        "label": "Dashboard",
+        "icon": "Dashboard",
+        "url": "/",
+        "target": "_self",
+        "style": {
+          "color": "#fwx00bb"
+        },
+        "children": null
+      },
+      {
+        "label": "People",
+        "icon": "Company",
+        "url": null,
+        "target": "_self",
+        "children": [
+          {
+            "label": "Profile",
+            "icon": null,
+            "url": "/people/profile",
+            "target": "_self",
+            "children": null
           },
-          "children": null
+          {
+            "label": "Manage Employee",
+            "icon": null,
+            "url": "/people/manage_employee",
+            "target": "_self",
+            "style": null,
+            "children": null
+          },
+          {
+            "label": "Directory",
+            "icon": null,
+            "url": "/people/directory",
+            "target": "_self",
+            "style": null,
+            "children": null
+          },
+          {
+            "label": "Org Chart",
+            "icon": null,
+            "url": "/people/org_chart",
+            "target": "_self",
+            "style": null,
+            "children": null
+          }
+        ]
       },
       {
-          "label": "People",
-          "icon": "Company",
-          "url": null,
-          "target": "_self",
-          "children": [
-              {
-                  "label": "Profile",
-                  "icon": null,
-                  "url": "/people/profile",
-                  "target": "_self",
-                  "children": null
-              },
-              {
-                  "label": "Manage Employee",
-                  "icon": null,
-                  "url": "/people/manage_employee",
-                  "target": "_self",
-                  "style": null,
-                  "children": null
-              },
-              {
-                  "label": "Directory",
-                  "icon": null,
-                  "url": "/people/directory",
-                  "target": "_self",
-                  "style": null,
-                  "children": null
-              },
-              {
-                  "label": "Org Chart",
-                  "icon": null,
-                  "url": "/people/org_chart",
-                  "target": "_self",
-                  "style": null,
-                  "children": null
-              }
-          ]
-      },
-      {
-          "label": "Your Company",
-          "type": "group",
-          "icon": "Company",
-          "url": null,
-          "target": "_self",
-          "style": {
+        "label": "Your Company",
+        "type": "group",
+        "icon": "Company",
+        "url": null,
+        "target": "_self",
+        "style": {
+          "color": "#ff00bb"
+        },
+        "children": [
+          {
+            "label": "Profile",
+            "icon": "Payroll",
+            "url": "/people/profile",
+            "target": "_self",
+            "style": {
               "color": "#ff00bb"
+            },
+            "children": null
           },
-          "children": [
-              {
-                  "label": "Profile",
-                  "icon": "Payroll",
-                  "url": "/people/profile",
-                  "target": "_self",
-                  "style": {
-                      "color": "#ff00bb"
-                  },
-                  "children": null
-              },
-              {
-                  "label": "Users",
-                  "icon": "UserOutline",
-                  "url": "/people/usersGrid",
-                  "target": "_self",
-                  "style": null,
-                  "children": null
-              }
-          ]
+          {
+            "label": "Users",
+            "icon": "UserOutline",
+            "url": "/people/usersGrid",
+            "target": "_self",
+            "style": null,
+            "children": null
+          }
+        ]
       }
-  ],
-  "topRightMenu": [
+    ],
+    "topRightMenu": [
       {
-          "label": "text",
-          "icon": "box",
-          "style": {
-              "color": "#f00"
-          },
-          "url": "/people/82",
-          "target": "_self"
+        "label": "text",
+        "icon": "box",
+        "style": {
+          "color": "#f00"
+        },
+        "url": "/people/82",
+        "target": "_self"
       },
       {
-          "label": "text",
-          "icon": "box",
-          "url": "/people/82",
-          "target": "_self",
-          "children": [
-              {
-                  "label": "text",
-                  "icon": "box",
-                  "style": {
-                      "color": "#f00"
-                  },
-                  "url": "/people/82",
-                  "target": "_self"
-              },
-              {
-                  "label": "text",
-                  "icon": "box",
-                  "style": {
-                      "color": "#f00"
-                  },
-                  "url": "/people/82",
-                  "target": "_self"
-              }
-          ]
+        "label": "text",
+        "icon": "box",
+        "url": "/people/82",
+        "target": "_self",
+        "children": [
+          {
+            "label": "text",
+            "icon": "box",
+            "style": {
+              "color": "#f00"
+            },
+            "url": "/people/82",
+            "target": "_self"
+          },
+          {
+            "label": "text",
+            "icon": "box",
+            "style": {
+              "color": "#f00"
+            },
+            "url": "/people/82",
+            "target": "_self"
+          }
+        ]
       }
-  ]
+    ]
   }
 }
