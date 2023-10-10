@@ -20,9 +20,10 @@
       "userId": "8dfg4df56g7",
       "role": "admin",
       "roleId": "ers4f35ds7f",
-      "name": "Salekin",
+      "name": "Al Emran",
+      "subscriptionType": "Pro",
       "avatar": "https://cdn.yosuite.com/myavatar.png", // profile image url
-      "email": "salekin@gmail.com",
+      "email": "emran@gmail.com",
       "lastUpdated": "1693717770398"
     },
     "routes": [
@@ -30,7 +31,7 @@
       {
         "path": "/",
         "label": "Dashboard",
-        "layoutComponent": "CommonLayout",
+        "layoutComponent": "Common",
         "innerComponents": {
           "HistoryTimeline": "HistoryTimeline",
           "RightSidebar": "RightSidebar"
@@ -39,18 +40,18 @@
       {
         "path": "/people/profile",
         "label": "Profile",
-        "layoutComponent": "CommonLayout",
+        "layoutComponent": "Common",
         "innerComponents": {
           "BasicInformationCard": "InformationCard",
           "AddressInformationCard": "InformationCard",
-          "VisaInformationTable": "InformationTable",
+          "BasicInformationTable": "InformationTable",
           "LeftSidebar": "LeftSidebar"
         }
       },
       {
         "path": "/people/usersGrid",
         "label": "Users",
-        "layoutComponent": "CommonLayout",
+        "layoutComponent": "Common",
         "innerComponents": {
           "UserGrid": "UserGrid"
         }
@@ -58,7 +59,7 @@
       {
         "path": "/people/usersTable",
         "label": "Users",
-        "layoutComponent": "CommonLayout",
+        "layoutComponent": "Common",
         "innerComponents": {
           "UserTable": "UserTable"
         }
