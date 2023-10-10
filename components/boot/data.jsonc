@@ -43,7 +43,7 @@
         "innerComponents": {
           "header": "Heading",
           "breadcrumb": "Breadcrumb",
-          "navigationBar": "NavigationBar",
+          "navigationbar": "NavigationBar",
           "BasicInformationCard": "InformationCard",
           "AddressInformationCard": "InformationCard",
           "EmergencyInformationCard": "InformationCard",
@@ -60,7 +60,7 @@
         "label": "Manage Employee",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "NavigationBar": "NavigationBar",
+          "navigationbar": "NavigationBar",
           "UserGrid": "UserGrid"
         }
       },
@@ -69,7 +69,7 @@
         "label": "Directory",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "Org_chart": "OrgChart"
+          "orgChart": "orgChart"
         }
       },
       {
@@ -77,9 +77,9 @@
         "label": "Org Chart",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "ProfilePageHeading": "Heading",
-          "Breadcrumb": "Breadcrumb",
-          "NavigationBar": "NavigationBar",
+          "header": "Heading",
+          "breadcrumb": "Breadcrumb",
+          "navigationbar": "NavigationBar",
           "PeopleCards": "PeopleCards",
           "PeopleTable": "PeopleTable"
         }

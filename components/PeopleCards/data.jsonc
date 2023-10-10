@@ -1,213 +1,213 @@
 {
-    "data": [
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
-            "name": "Tarana Burke",
-            "job_title": "cto",
-            "department": "Engineering",
-            "employee_status": "NOT ACTIVE",
-            "productivity": "90%",
-            "date_hired": "15 Jan 2015",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
-            "name": "Shariful Raj",
-            "job_title": "UI Designer",
-            "department": "Design",
-            "employee_status": "NOT ACTIVE",
-            "productivity": "85%",
-            "date_hired": "20 Feb 2016",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
-            "name": "Ekram Khan",
-            "job_title": "Product Manager",
-            "department": "Product Management",
-            "employee_status": "Active",
-            "productivity": "95%",
-            "date_hired": "10 Mar 2017",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
-            "name": "Michael Brown",
-            "job_title": "Full Stack Developer",
-            "department": "Engineering",
-            "employee_status": "Active",
-            "productivity": "80%",
-            "date_hired": "5 Apr 2018",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
-            "name": "Emma Davis",
-            "job_title": "Technical Writer",
-            "department": "Engineering",
-            "employee_status": "Active",
-            "productivity": "75%",
-            "date_hired": "1 May 2019",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
-            "name": "Christopher Wilson",
-            "job_title": "Frontend Developer",
-            "department": "Engineering",
-            "employee_status": "Active",
-            "productivity": "90%",
-            "date_hired": "25 Jun 2020",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
-            "name": "Ava Garcia",
-            "job_title": "Marketing Manager",
-            "department": "Marketing",
-            "employee_status": "Active",
-            "productivity": "85%",
-            "date_hired": "20 Jul 2021",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/8.jpg",
-            "name": "William Rodriguez",
-            "job_title": "Backend Developer",
-            "department": "Engineering",
-            "employee_status": "NOT ACTIVE",
-            "productivity": "95%",
-            "date_hired": "15 Aug 2022",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/9.jpg",
-            "name": "Sophia Martinez",
-            "job_title": "UI Designer",
-            "department": "Design",
-            "employee_status": "Active",
-            "productivity": "80%",
-            "date_hired": "10 Sep 2023",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/10.jpg",
-            "name": "James Anderson",
-            "job_title": "Product Manager",
-            "department": "Product Management",
-            "employee_status": "NOT ACTIVE",
-            "productivity": "75%",
-            "date_hired": "5 Oct 2024",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
-            "name": "Olivia Thomas",
-            "job_title": "Full Stack Developer",
-            "department": "Engineering",
-            "employee_status": "Active",
-            "productivity": "90%",
-            "date_hired": "1 Nov 2025",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
-            "name": "Benjamin Hernandez",
-            "job_title": "Technical Writer",
-            "department": "Engineering",
-            "employee_status": "Active",
-            "productivity": "85%",
-            "date_hired": "25 Dec 2026",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/13.jpg",
-            "name": "Isabella Moore",
-            "job_title": "Frontend Developer",
-            "department": "Engineering",
-            "employee_status": "Active",
-            "productivity": "95%",
-            "date_hired": "20 Jan 2028",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/14.jpg",
-            "name": "Ethan Jackson",
-            "job_title": "Marketing Manager",
-            "department": "Marketing",
-            "employee_status": "Active",
-            "productivity": "80%",
-            "date_hired": "15 Feb 2029",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/15.jpg",
-            "name": "Mia Thompson",
-            "job_title": "Backend Developer",
-            "department": "Engineering",
-            "employee_status": "NOT ACTIVE",
-            "productivity": "75%",
-            "date_hired": "10 Mar 2030",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/16.jpg",
-            "name": "Alexander White",
-            "job_title": "UI Designer",
-            "department": "Design",
-            "employee_status": "Active",
-            "productivity": "90%",
-            "date_hired": "5 Apr 2031",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/17.jpg",
-            "name": "Avery Garcia",
-            "job_title": "Product Manager",
-            "department": "Product Management",
-            "employee_status": "Active",
-            "productivity": "85%",
-            "date_hired": "01 May 2032",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/men/18.jpg",
-            "name": "Daniel Martinez",
-            "job_title": "Full Stack Developer",
-            "department": "Engineering",
-            "employee_status": "Active",
-            "productivity": "95%",
-            "date_hired": "25 Jun 2033",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        },
-        {
-            "imageUrl": "https://randomuser.me/api/portraits/women/19.jpg",
-            "name": "Evelyn Davis",
-            "job_title": "Technical Writer",
-            "department": "Engineering",
-            "employee_status": "Active",
-            "productivity": "80%",
-            "date_hired": "20 Jul 2034",
-            "email": "hr@company.com",
-            "phone": "+1-555-555-5555"
-        }
-    ]
+  "data": [
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "name": "Tarana Burke",
+      "job_title": "cto",
+      "department": "Engineering",
+      "employee_status": "NOT ACTIVE",
+      "productivity": "90%",
+      "date_hired": "15 Jan 2015",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+      "name": "Shariful Raj",
+      "job_title": "UI Designer",
+      "department": "Design",
+      "employee_status": "NOT ACTIVE",
+      "productivity": "85%",
+      "date_hired": "20 Feb 2016",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "name": "Ekram Khan",
+      "job_title": "Product Manager",
+      "department": "Product Management",
+      "employee_status": "Active",
+      "productivity": "95%",
+      "date_hired": "10 Mar 2017",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+      "name": "Michael Brown",
+      "job_title": "Full Stack Developer",
+      "department": "Engineering",
+      "employee_status": "Active",
+      "productivity": "80%",
+      "date_hired": "5 Apr 2018",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+      "name": "Emma Davis",
+      "job_title": "Technical Writer",
+      "department": "Engineering",
+      "employee_status": "Active",
+      "productivity": "75%",
+      "date_hired": "1 May 2019",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+      "name": "Christopher Wilson",
+      "job_title": "Frontend Developer",
+      "department": "Engineering",
+      "employee_status": "Active",
+      "productivity": "90%",
+      "date_hired": "25 Jun 2020",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+      "name": "Ava Garcia",
+      "job_title": "Marketing Manager",
+      "department": "Marketing",
+      "employee_status": "Active",
+      "productivity": "85%",
+      "date_hired": "20 Jul 2021",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+      "name": "William Rodriguez",
+      "job_title": "Backend Developer",
+      "department": "Engineering",
+      "employee_status": "NOT ACTIVE",
+      "productivity": "95%",
+      "date_hired": "15 Aug 2022",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/9.jpg",
+      "name": "Sophia Martinez",
+      "job_title": "UI Designer",
+      "department": "Design",
+      "employee_status": "Active",
+      "productivity": "80%",
+      "date_hired": "10 Sep 2023",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/10.jpg",
+      "name": "James Anderson",
+      "job_title": "Product Manager",
+      "department": "Product Management",
+      "employee_status": "NOT ACTIVE",
+      "productivity": "75%",
+      "date_hired": "5 Oct 2024",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+      "name": "Olivia Thomas",
+      "job_title": "Full Stack Developer",
+      "department": "Engineering",
+      "employee_status": "Active",
+      "productivity": "90%",
+      "date_hired": "1 Nov 2025",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+      "name": "Benjamin Hernandez",
+      "job_title": "Technical Writer",
+      "department": "Engineering",
+      "employee_status": "Active",
+      "productivity": "85%",
+      "date_hired": "25 Dec 2026",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/13.jpg",
+      "name": "Isabella Moore",
+      "job_title": "Frontend Developer",
+      "department": "Engineering",
+      "employee_status": "Active",
+      "productivity": "95%",
+      "date_hired": "20 Jan 2028",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/14.jpg",
+      "name": "Ethan Jackson",
+      "job_title": "Marketing Manager",
+      "department": "Marketing",
+      "employee_status": "Active",
+      "productivity": "80%",
+      "date_hired": "15 Feb 2029",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/15.jpg",
+      "name": "Mia Thompson",
+      "job_title": "Backend Developer",
+      "department": "Engineering",
+      "employee_status": "NOT ACTIVE",
+      "productivity": "75%",
+      "date_hired": "10 Mar 2030",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/16.jpg",
+      "name": "Alexander White",
+      "job_title": "UI Designer",
+      "department": "Design",
+      "employee_status": "Active",
+      "productivity": "90%",
+      "date_hired": "5 Apr 2031",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/17.jpg",
+      "name": "Avery Garcia",
+      "job_title": "Product Manager",
+      "department": "Product Management",
+      "employee_status": "Active",
+      "productivity": "85%",
+      "date_hired": "01 May 2032",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/18.jpg",
+      "name": "Daniel Martinez",
+      "job_title": "Full Stack Developer",
+      "department": "Engineering",
+      "employee_status": "Active",
+      "productivity": "95%",
+      "date_hired": "25 Jun 2033",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/19.jpg",
+      "name": "Evelyn Davis",
+      "job_title": "Technical Writer",
+      "department": "Engineering",
+      "employee_status": "Active",
+      "productivity": "80%",
+      "date_hired": "20 Jul 2034",
+      "email": "hr@company.com",
+      "phone": "+1-555-555-5555"
+    }
+  ]
 }

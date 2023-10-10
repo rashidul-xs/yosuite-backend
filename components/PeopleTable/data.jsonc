@@ -1,0 +1,314 @@
+{
+  "data": [
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "name": "Emily Johnson",
+      "job_title": "Marketing Manager",
+      "line_manager": "@Sarah Lee",
+      "department": "Marketing",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+      "name": "John Davis",
+      "job_title": "Software Developer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "name": "Rachel Kim",
+      "job_title": "Product Manager",
+      "line_manager": "@David Lee",
+      "department": "Product Management",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+      "name": "Michael Brown",
+      "job_title": "Sales Representative",
+      "line_manager": "@Jessica Chen",
+      "department": "Sales",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+      "name": "Olivia Wilson",
+      "job_title": "Graphic Designer",
+      "line_manager": "@Peter Lee",
+      "department": "Design",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+      "name": "William Davis",
+      "job_title": "Software Engineer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+      "name": "Sophia Hernandez",
+      "job_title": "HR Manager",
+      "line_manager": "@John Lee",
+      "department": "Human Resources",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "name": "Emily Johnson",
+      "job_title": "Marketing Manager",
+      "line_manager": "@Sarah Lee",
+      "department": "Marketing",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+      "name": "John Davis",
+      "job_title": "Software Developer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "name": "Rachel Kim",
+      "job_title": "Product Manager",
+      "line_manager": "@David Lee",
+      "department": "Product Management",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+      "name": "Michael Brown",
+      "job_title": "Sales Representative",
+      "line_manager": "@Jessica Chen",
+      "department": "Sales",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+      "name": "Olivia Wilson",
+      "job_title": "Graphic Designer",
+      "line_manager": "@Peter Lee",
+      "department": "Design",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+      "name": "William Davis",
+      "job_title": "Software Engineer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+      "name": "Sophia Hernandez",
+      "job_title": "HR Manager",
+      "line_manager": "@John Lee",
+      "department": "Human Resources",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "name": "Emily Johnson",
+      "job_title": "Marketing Manager",
+      "line_manager": "@Sarah Lee",
+      "department": "Marketing",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+      "name": "John Davis",
+      "job_title": "Software Developer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "name": "Rachel Kim",
+      "job_title": "Product Manager",
+      "line_manager": "@David Lee",
+      "department": "Product Management",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+      "name": "Michael Brown",
+      "job_title": "Sales Representative",
+      "line_manager": "@Jessica Chen",
+      "department": "Sales",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+      "name": "Olivia Wilson",
+      "job_title": "Graphic Designer",
+      "line_manager": "@Peter Lee",
+      "department": "Design",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+      "name": "William Davis",
+      "job_title": "Software Engineer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+      "name": "Sophia Hernandez",
+      "job_title": "HR Manager",
+      "line_manager": "@John Lee",
+      "department": "Human Resources",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+      "name": "Olivia Wilson",
+      "job_title": "Graphic Designer",
+      "line_manager": "@Peter Lee",
+      "department": "Design",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+      "name": "William Davis",
+      "job_title": "Software Engineer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+      "name": "Sophia Hernandez",
+      "job_title": "HR Manager",
+      "line_manager": "@John Lee",
+      "department": "Human Resources",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "name": "Emily Johnson",
+      "job_title": "Marketing Manager",
+      "line_manager": "@Sarah Lee",
+      "department": "Marketing",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+      "name": "John Davis",
+      "job_title": "Software Developer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "name": "Rachel Kim",
+      "job_title": "Product Manager",
+      "line_manager": "@David Lee",
+      "department": "Product Management",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+      "name": "Michael Brown",
+      "job_title": "Sales Representative",
+      "line_manager": "@Jessica Chen",
+      "department": "Sales",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+      "name": "Olivia Wilson",
+      "job_title": "Graphic Designer",
+      "line_manager": "@Peter Lee",
+      "department": "Design",
+      "Office": "XpeedStudio",
+      "employee_status": "NOT ACTIVE",
+      "account": "Deactivated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+      "name": "William Davis",
+      "job_title": "Software Engineer",
+      "line_manager": "@Jane Smith",
+      "department": "Engineering",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    },
+    {
+      "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+      "name": "Sophia Hernandez",
+      "job_title": "HR Manager",
+      "line_manager": "@John Lee",
+      "department": "Human Resources",
+      "Office": "XpeedStudio",
+      "employee_status": "ACTIVE",
+      "account": "Activated"
+    }
+  ]
+}
