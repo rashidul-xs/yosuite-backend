@@ -1,0 +1,24 @@
+{
+    "responseType": "success",
+    "data": {
+        "icon": "Dashboard",  // icon of the component.
+        "title": { // title properties of the component
+            "text": "Dashboard",
+            "style": {
+                "color": "#000000",
+                "fontSize": "16px",
+                "fontWeight": "bold"
+            }
+        },
+        "style": {  // style of the component
+            "width": "100%",
+            "height": "100%",
+            "padding": "20px",
+            "backgroundColor": "#ffffff"
+        }
+    },
+    "message": [
+        "Successfully fetched"
+    ],
+    "traceCode": "c3VjY2Vzc2Z1bGx5IGZldGNoZWQu"
+}

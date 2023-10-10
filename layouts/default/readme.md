@@ -1,0 +1,1 @@
+currently there is no need for any API calls for layouts.

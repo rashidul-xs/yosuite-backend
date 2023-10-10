@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "title": "Home",
+      "icon": "Dashboard",
+      "url": "/"
+    },
+    {
+      "title": "Profile",
+      "url": "/people/profile"
+    },
+    {
+      "title": "Directory",
+      "url": ""
+    }
+  ]
+}
+

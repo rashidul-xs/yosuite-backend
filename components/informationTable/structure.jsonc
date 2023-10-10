@@ -1,0 +1,132 @@
+{
+  "data": {
+    "columns": [
+      {
+        "title": "Name", // title of the column
+        "dataIndex": "name",
+        "key": "name",
+        "sorter": {
+          "defaultSortOrder": "descend" // ascend, descend sorting options in table head
+        }
+      },
+      {
+        "title": "Age",
+        "dataIndex": "age",
+        "key": "age"
+      },
+      {
+        "title": "Address",
+        "dataIndex": "address",
+        "key": "address",
+        "headingStyle": {
+          // styles of the specific table head (optional)
+          "padding": "10px",
+          "border": "1px solid black",
+          "borderRadius": "5px",
+          "borderColor": "red",
+          "borderStyle": "dashed",
+          "borderWidth": "2px"
+        }
+      },
+      {
+        "title": "Tags",
+        "dataIndex": "tags",
+        "key": "tags",
+        "dataStyle": {
+          // styles of the specific table data (optional)
+          "padding": "10px",
+          "border": "1px solid black",
+          "borderRadius": "5px",
+          "borderColor": "red",
+          "borderStyle": "dashed",
+          "borderWidth": "2px"
+        },
+        "renderOptions": {
+          // render options of the specific table data (optional). those data will be modified according to the conditions
+          "dataVisualization": {
+            "active": {
+              // active, inactive, hold are the table data which will be showed in the UI according to the conditions
+              "color": "green",
+              "background": "lightgreen"
+            },
+            "inactive": {
+              "color": "blue",
+              "background": "lightblue"
+            },
+            "hold": {
+              "color": "black",
+              "background": "white"
+            }
+          }
+        }
+      },
+      {
+        "title": "Action",
+        "key": "action",
+        "renderOptions": {
+          "action": {
+            // action button in table data cell
+            "type": "button", // element type
+            "text": "Delete",
+            "icon": "Delete",
+            "style": {
+              "color": "red",
+              "background": "lightred"
+            },
+            "onClick": {
+              "type": "delete", // what will be performed when the button is clicked
+              "endpoint": "https://jsonplaceholder.typicode.com/posts/1"
+            }
+          }
+        }
+      },
+      {
+        "title": "...",
+        "key": "...",
+        "renderOptions": {
+          "action": {
+            "type": "button",
+            "icon": "Delete",
+            "menuItems": [
+              // action button is a dropdown menu, menuItems will be used to show the dropdown menu items
+              {
+                "text": "Delete",
+                "onClick": {
+                  "type": "delete",
+                  "endpoint": "https://jsonplaceholder.typicode.com/posts/1" // if endpoint is provided, there will be an api call when the button is clicked
+                }
+              },
+              {
+                "text": "Edit",
+                "onClick": {
+                  "type": "edit",
+                  "targetComponent": "Form" // if targetComponent is provided, the target component will be opened when the button is clicked
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "props": {
+      "cellBorder": false, // border between cells
+      "title": "Table Title", // title of the table
+      "pagination": {
+        "position": "topLeft", // topLeft, topCenter, topRight, bottomLeft, bottomCenter, bottomRight
+        "pageSize": 10,
+        "disabled": false,
+        "onChange": "onChange",
+        "total": 100
+      },
+      "footer": "Footer Text", // footer text
+      "fixedHeader": false, // fixed header
+      "size": "large", // small, middle, large,
+      "rowSelection": {
+        "type": "checkbox" // checkbox, radio
+      },
+      "style": {
+        "backgroundColor": "white"
+      }
+    }
+  }
+}
