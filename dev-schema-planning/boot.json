@@ -77,7 +77,7 @@
                     "ProfilePageHeading": "Heading",
                     "Breadcrumb": "Breadcrumb",
                     "NavigationBar": "NavigationBar",
-                    "PeopleCards": "PeopleTable",
+                    "PeopleCards": "PeopleCards",
                     "PeopleTable": "PeopleTable"
                 }
             }
