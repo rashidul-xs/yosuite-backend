@@ -14,7 +14,7 @@
         },
         {
             "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
-            "nam",
+            "name": "Shariful Raj",
             "job_title": "UI Designer",
             "department": "Design",
             "employee_status": "Inactive",
@@ -25,7 +25,7 @@
         },
         {
             "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
-            "name": "Sarah Johnson",
+            "name": "Ekram Khan",
             "job_title": "Product Manager",
             "department": "Product Management",
             "employee_status": "Active",
