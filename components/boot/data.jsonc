@@ -69,7 +69,7 @@
         "label": "Directory",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "orgChart": "orgChart"
+          "orgChart": "OrgChart"
         }
       },
       {
