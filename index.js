@@ -23,10 +23,10 @@ app.get('/api/:folder', (req, res) => {
   const folder = req.params.folder;
   const filePath = path.join(__dirname, '/components/',folder,`data.jsonc` );
   const data = fs.readFileSync(filePath, 'utf8')
-  const cleanedJSONString = data.replace(/\/\/.*|\/\*[\s\S]*?\*\/|"(https?:\/\/[^\s"]+)"/g, '$1');
+  const cleanedJSONString = data.replace(/\/\/.*|\/\*[\s\S]*?\*\/|("https?:\/\/[^\s"]+")/g, '$1');
   console.log(cleanedJSONString);
   const cleanedJSONObject = JSON.parse(cleanedJSONString)
-  res.status(200).send(cleanedJSONString);
+  res.status(200).send(cleanedJSONObject);
 });
 
 // Define a route to serve JSON files based on the API endpoint
@@ -40,7 +40,7 @@ app.get('/api/:folder/:file', (req, res) => {
   // data = JSON.parse(data);
   const cleanedJSONString = data.replace(/\/\/.*|\/\*[\s\S]*?\*\/|("https?:\/\/[^\s"]+")/g, '$1');
   const cleanedJSONObject = JSON.parse(cleanedJSONString)
-  // console.log(cleanedJSONObject);
+   console.log(cleanedJSONObject);
   //res send with 200 status code
   res.status(200).send(cleanedJSONObject);
 
