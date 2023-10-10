@@ -5,13 +5,10 @@
             "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
             "name": "Tarana Burke",
             "job_title": "cto",
-            "line_manager": "@John Doe",
             "department": "Engineering",
-            "Office": "XpeedStudio",
             "employee_status": "NOT ACTIVE",
             "productivity": "90%",
             "date_hired": "15 Jan 2015",
-            "account": "Activated",
             "email": "hr@company.com",
             "phone": "+1-555-555-5555"
         },
