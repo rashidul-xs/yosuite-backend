@@ -1,0 +1,7 @@
+{
+  "data": {
+    "id": "PeoplesTableFilter",
+    "targetComponent": "InformationTable"
+    // will update later
+  }
+}

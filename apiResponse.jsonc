@@ -1,0 +1,16 @@
+// header: status code
+
+// body JSON
+{
+    "message": {
+        "success": [
+            "Data store success",
+            "another success message"
+        ],
+        "info": [
+            "some info message"
+        ]
+    },
+    "tracer": "some technical message in plain text or hashed string",
+    "data": null // main returned data from api.
+}

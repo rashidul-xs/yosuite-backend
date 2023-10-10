@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 40,
+      "address": "123 Main St",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Smith Doe",
+      "age": 30,
+      "address": "123 Main St",
+      "status": "inactive"
+    },
+    {
+      "id": 3,
+      "name": "John Smith",
+      "age": 50,
+      "address": "123 Main St",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Jane Smith",
+      "age": 60,
+      "address": "123 Main St",
+      "status": "hold"
+    }
+  ]
+}

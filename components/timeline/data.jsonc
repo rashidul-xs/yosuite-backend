@@ -1,0 +1,445 @@
+{
+  "data": [
+    {
+      "label": {
+        "text": "01 January 2021",
+        "style": {
+          "color": "#000000",
+          "fontSize": "14px",
+          "fontWeight": "bold"
+        }
+      },
+      "timeline": [
+        {
+          "title": {
+            "text": "04 january",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "25 january",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "10 february",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "27 february",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "16 march",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "22 march",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "01 January 2021",
+        "style": {
+          "color": "#000000",
+          "fontSize": "14px",
+          "fontWeight": "bold"
+        }
+      },
+      "timeline": [
+        {
+          "title": {
+            "text": "04 january",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "25 january",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "10 february",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "27 february",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "16 march",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "22 march",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "01 January 2021",
+        "style": {
+          "color": "#000000",
+          "fontSize": "14px",
+          "fontWeight": "bold"
+        }
+      },
+      "timeline": [
+        {
+          "title": {
+            "text": "04 january",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "25 january",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "10 february",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "27 february",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\".",
+              "Employee Status was changed from \"On Leave\" to \"Active\".",
+              "Employee Status was changed from \"Active\" to \"On Leave\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "16 march",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        },
+        {
+          "title": {
+            "text": "22 march",
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          },
+          "contents": {
+            "text": [
+              "Job Title was changed from \"Account Manager\" to \"IT Manager\".",
+              "Department was changed from \"HR\" to \"IT\".",
+              "Employment Type was changed from \"Contractor\" to \"Full-time\"."
+            ],
+            "style": {
+              "color": "#000000",
+              "fontSize": "14px",
+              "fontWeight": "bold"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

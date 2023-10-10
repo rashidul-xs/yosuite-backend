@@ -1,0 +1,197 @@
+{
+  "data": {
+    "system": {
+      // application information
+      "frontendVersion": "1.1.1",
+      "apiVersion": "1.1.1",
+      "lastServerUpdated": "1693717770398",
+      "lastLocalUpdated": "1693717770398"
+    },
+    "workspace": {
+      // workspace information
+      "workspaceId": "35sg4ds3g4235sdg4",
+      "siteUrl": "hr.yosuite.ai",
+      "siteTitle": "YoSuite",
+      "siteTagline": "The most innovative hr software you have ever seen, yo man yo!",
+      "lastUpdated": "1693717770398"
+    },
+    "user": {
+      // user information
+      "userId": "8dfg4df56g7",
+      "role": "admin",
+      "roleId": "ers4f35ds7f",
+      "name": "Salekin",
+      "avatar": "https://cdn.yosuite.com/myavatar.png", // profile image url
+      "email": "salekin@gmail.com",
+      "lastUpdated": "1693717770398"
+    },
+    "routes": [
+      // all routes with components information
+      {
+        "path": "/",
+        "label": "Dashboard",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "HistoryTimeline": "HistoryTimeline",
+          "RightSidebar": "RightSidebar"
+        }
+      },
+      {
+        "path": "/people/profile",
+        "label": "Profile",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "BasicInformationCard": "InformationCard",
+          "AddressInformationCard": "InformationCard",
+          "VisaInformationTable": "InformationTable",
+          "LeftSidebar": "LeftSidebar"
+        }
+      },
+      {
+        "path": "/people/usersGrid",
+        "label": "Users",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "UserGrid": "UserGrid"
+        }
+      },
+      {
+        "path": "/people/usersTable",
+        "label": "Users",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "UserTable": "UserTable"
+        }
+      }
+    ],
+    "mainSidebar": [
+      // main sidebar menu items information
+      {
+        "label": "Dashboard",
+        "icon": "Dashboard",
+        "url": "/",
+        "target": "_self",
+        "style": {
+          "color": "#fwx00bb"
+        },
+        "children": null
+      },
+      {
+        "label": "People",
+        "icon": "People",
+        "url": null,
+        "target": "_self",
+        "style": {
+          "color": "#ff00bb"
+        },
+        "children": [
+          {
+            "label": "Profile",
+            "icon": null,
+            "url": "/people/profile",
+            "target": "_self",
+            "style": {
+              "color": "#ff00bb"
+            },
+            "children": null
+          },
+          {
+            "label": "Users",
+            "icon": null,
+            "url": "/people/usersGrid",
+            "target": "_self",
+            "style": null,
+            "children": null
+          },
+          {
+            "label": "Users",
+            "icon": null,
+            "url": "/people/usersTable",
+            "target": "_self",
+            "style": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "label": "Your Company",
+        "type": "group",
+        "icon": "Company",
+        "url": null,
+        "target": "_self",
+        "style": {
+          "color": "#ff00bb"
+        },
+        "children": [
+          {
+            "label": "Profile",
+            "icon": null,
+            "url": "/people/profile",
+            "target": "_self",
+            "style": {
+              "color": "#ff00bb"
+            },
+            "children": null
+          },
+          {
+            "label": "Users",
+            "icon": null,
+            "url": "/people/usersGrid",
+            "target": "_self",
+            "style": null,
+            "children": null
+          },
+          {
+            "label": "Users",
+            "icon": null,
+            "url": "/people/usersTable",
+            "target": "_self",
+            "style": {
+              "color": "#ff00bb"
+            },
+            "children": null
+          }
+        ]
+      }
+    ],
+    "topRightMenu": [
+      // top right menu items information
+      {
+        "label": "text",
+        "icon": "box",
+        "style": {
+          "color": "#f00"
+        },
+        "url": "/people/82",
+        "target": "_self"
+      },
+      {
+        "label": "text",
+        "icon": "box",
+        "url": "/people/82",
+        "target": "_self",
+        "children": [
+          // if children is provided, the menu item will be a dropdown menu
+          {
+            "label": "text",
+            "icon": "box",
+            "style": {
+              "color": "#f00"
+            },
+            "url": "/people/82",
+            "target": "_self"
+          },
+          {
+            "label": "text",
+            "icon": "box",
+            "style": {
+              "color": "#f00"
+            },
+            "url": "/people/82",
+            "target": "_self"
+          }
+        ]
+      }
+    ]
+  }
+}

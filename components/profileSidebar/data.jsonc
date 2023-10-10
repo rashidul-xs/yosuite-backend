@@ -1,0 +1,108 @@
+{
+  "data": {
+    "name": "John Doe",
+    "image": {
+      "url": "https://i.pravatar.cc/150?img=3"
+    },
+    "status": {
+      "current": "Active",
+      "options": [
+        {
+          "label": "Active",
+          "value": "active"
+        },
+        {
+          "label": "On Leave",
+          "value": "leave"
+        }
+      ]
+    },
+    "officialInformation": [
+      {
+        "label": "Position",
+        "title": "Software Engineer"
+      },
+      {
+        "label": "Employee ID",
+        "title": "123456"
+      },
+      {
+        "label": "Office",
+        "title": "Wpmet"
+      }
+    ],
+    "personalInformation": [
+      {
+        "icon": "Email",
+        "title": "help@gmail.com"
+      },
+      {
+        "icon": "Phone",
+        "title": "+91 1234567890"
+      },
+      {
+        "icon": "Location",
+        "title": "India"
+      },
+      {
+        "icon": "Clock",
+        "title": "GMT +5:30"
+      }
+    ],
+    "onboarding": {
+      "date": "12/12/2020",
+      "required": true
+    },
+    "team": {
+      "hr": {
+        "defaultValue": "Emily Smith",
+        "options": [
+          {
+            "label": "Emily Smith",
+            "value": "emi",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+          },
+          {
+            "label": "John Doe",
+            "value": "john",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+          }
+        ]
+      },
+      "developers": {
+        "defaultValue": "John Doe",
+        "options": [
+          {
+            "label": "Emily Smith",
+            "value": "emi",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+          },
+          {
+            "label": "John Doe",
+            "value": "john",
+            "avatar": "https://i.pravatar.cc/150?img=1"
+          }
+        ]
+      }
+    },
+    "socialLinks": [
+      {
+        "icon": "Facebook",
+        "url": "https://facebook.com",
+        "size": 12
+      },
+      {
+        "icon": "Twitter",
+        "url": "https://twitter.com"
+      },
+      {
+        "icon": "Instagram",
+        "url": "https://instagram.com"
+      },
+      {
+        "icon": "Linkedin",
+        "url": "https://linkedin.com"
+      }
+    ]
+  }
+}
