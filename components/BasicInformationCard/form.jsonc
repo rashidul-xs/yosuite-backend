@@ -215,7 +215,7 @@
           },
           {
             "component": "Col",
-            "size": 12,
+            "size": 24,
             "childElements": [
               {
                 "component": "Upload",
