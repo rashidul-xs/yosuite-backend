@@ -47,7 +47,7 @@
           "navigationbar": "NavigationBar",
           "BasicInformationCard": "InformationCard",
           "BasicInformationTable": "InformationTable",
-          "timeline": "HistoryTimeline",
+          "timeline": "TimelineHistory",
           "RightSidebar": "RightSidebar"
         }
       },
