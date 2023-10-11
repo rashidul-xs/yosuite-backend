@@ -21,18 +21,19 @@ app.get('/', (req, res) => {
 //add a / route to serve the hello world message
 app.get('/api/:folder', (req, res) => {
   const folder = req.params.folder;
-  const filePath = path.join(__dirname, '/components/',folder,`data.jsonc` );
+  const filePath = path.join(__dirname, '/components/', folder, `data.jsonc`);
   let data
   try {
     data = fs.readFileSync(filePath, 'utf8')
   } catch (error) {
     return res.status(404).json({ error: 'folder not found' });
   }
-  const cleanedJSONString = data.replace(/\/\/.*|\/\*[\s\S]*?\*\/|"(https?:\/\/[^\s"]+)"/g, '$1');
+  const cleanedJSONString = data.replace(/\/\/.*|\/\*[\s\S]*?\*\/|("https?:\/\/[^\s"]+")/g, '$1');
   let cleanedJSONObject
-  try{
+  try {
     cleanedJSONObject = JSON.parse(cleanedJSONString)
-  }catch(error){
+  } catch (error) {
+    console.log(error, cleanedJSONString);
     return res.status(500).json({ error: 'Could not parse the file.' });
   }
 
@@ -44,21 +45,21 @@ app.get('/api/:folder/:file', (req, res) => {
 
   const folder = req.params.folder;
   const file = req.params.file;
-  
-  const filePath = path.join(__dirname, '/components/',folder,`${file}.jsonc` );
+
+  const filePath = path.join(__dirname, '/components/', folder, `${file}.jsonc`);
   let data
   try {
     data = fs.readFileSync(filePath, 'utf8')
-    
+
   } catch (error) {
     return res.status(404).json({ error: 'File not found' });
   }
   // data = JSON.parse(data);
   const cleanedJSONString = data.replace(/\/\/.*|\/\*[\s\S]*?\*\/|("https?:\/\/[^\s"]+")/g, '$1');
   let cleanedJSONObject
-  try{
+  try {
     cleanedJSONObject = JSON.parse(cleanedJSONString)
-  }catch(error){
+  } catch (error) {
     return res.status(500).json({ error: 'Could not parse the file.' });
   }
   // console.log(cleanedJSONObject);
