@@ -7,8 +7,16 @@
     "status": {
       "current": "Active",
       "options": [
-        { "value": "active", "label": "Active", "className": "success" },
-        { "value": "leave", "label": "On Leave", "className": "danger" }
+        {
+          "value": "active",
+          "label": "Active",
+          "className": "success"
+        },
+        {
+          "value": "leave",
+          "label": "On Leave",
+          "className": "danger"
+        }
       ]
     },
     "officialInformation": [
@@ -49,32 +57,48 @@
     },
     "team": {
       "hr": {
-        "defaultValue": "Emily Smith",
+        "defaultValue": "2",
         "options": [
           {
-            "label": "Emily Smith",
-            "value": "emi",
-            "avatar": "https://i.pravatar.cc/150?img=1"
+            "value": "1",
+            "label": "Eric Widget",
+            "img": "https://i.pravatar.cc/300?img=1",
+            "title": "HR"
           },
           {
-            "label": "John Doe",
-            "value": "john",
-            "avatar": "https://i.pravatar.cc/150?img=1"
+            "value": "2",
+            "label": "Jarvis Pepperspray",
+            "img": "https://i.pravatar.cc/300?img=2",
+            "title": "Manager"
+          },
+          {
+            "value": "3",
+            "label": "Jake Weary",
+            "img": "https://i.pravatar.cc/300?img=3",
+            "title": "Lead"
           }
         ]
       },
       "developers": {
-        "defaultValue": "John Doe",
+        "defaultValue": "3",
         "options": [
           {
-            "label": "Emily Smith",
-            "value": "emi",
-            "avatar": "https://i.pravatar.cc/150?img=1"
+            "value": "1",
+            "label": "Eric Widget",
+            "img": "https://i.pravatar.cc/300?img=1",
+            "title": "HR"
           },
           {
-            "label": "John Doe",
-            "value": "john",
-            "avatar": "https://i.pravatar.cc/150?img=1"
+            "value": "2",
+            "label": "Jarvis Pepperspray",
+            "img": "https://i.pravatar.cc/300?img=2",
+            "title": "Manager"
+          },
+          {
+            "value": "3",
+            "label": "Jake Weary",
+            "img": "https://i.pravatar.cc/300?img=3",
+            "title": "Lead"
           }
         ]
       }
