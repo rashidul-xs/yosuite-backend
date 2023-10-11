@@ -58,6 +58,7 @@
         "innerComponents": {
           "header": "Heading",
           "breadcrumb": "Breadcrumb",
+          "navigationbar": "NavigationBar",
           "PeopleCards": "PeopleCards"
         }
       },
@@ -68,6 +69,7 @@
         "innerComponents": {
           "header": "Heading",
           "breadcrumb": "Breadcrumb",
+          "navigationbar": "NavigationBar",
           "PeopleTable": "PeopleTable"
         }
       },
@@ -78,6 +80,7 @@
         "innerComponents": {
           "header": "Heading",
           "breadcrumb": "Breadcrumb",
+          "navigationbar": "NavigationBar",
           "orgChart": "OrgChart"
         }
       }
