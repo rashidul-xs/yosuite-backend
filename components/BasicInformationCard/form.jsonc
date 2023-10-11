@@ -208,9 +208,7 @@
                 "name": "Switch",
                 "defaultValue": true,
                 "props": {
-                  "checkedChildren": "0",
-                  "unCheckedChildren": "1",
-                  "size": "small" // small | default
+                  // size: small | default
                 }
               }
             ]
