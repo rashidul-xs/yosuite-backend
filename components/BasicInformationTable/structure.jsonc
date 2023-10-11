@@ -1,5 +1,7 @@
 {
   "data": {
+    "title": "Basic Information", // title of the table component
+    "icon": "Profile",
     "columns": [
       {
         "title": "Name", // title of the column
@@ -110,7 +112,6 @@
     ],
     "props": {
       "cellBorder": false, // border between cells
-      "title": "Table Title", // title of the table
       "pagination": {
         "position": "topLeft", // topLeft, topCenter, topRight, bottomLeft, bottomCenter, bottomRight
         "pageSize": 10,
