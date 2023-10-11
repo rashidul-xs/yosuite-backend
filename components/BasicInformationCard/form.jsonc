@@ -63,110 +63,96 @@
               }
             ]
           },
-          {
-            "component": "Col",
-            "size": 12,
-            "childElements": [
-              {
-                "component": "TextArea",
-                "label": "Comment",
-                "name": "comment",
-                "props": {
-                  "placeholder": "yo textarea",
-                  "rows": 4 // number of rows for textarea
-                }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 12,
-            "childElements": [
-              {
-                "component": "Password",
-                "label": "yo password",
-                "name": "password",
-                "props": {
-                  "placeholder": "yo textarea",
-                  "allowClear": true // show clear button
-                }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 12,
-            "childElements": [
-              {
-                "component": "InputNumber",
-                "label": "yo InputNumber",
-                "name": "InputNumber",
-                "defaultValue": 3,
-                "props": {
-                  "min": 1,
-                  "max": 10
-                }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 12,
-            "childElements": [
-              {
-                "component": "Checkbox",
-                "label": "yo checkbox",
-                "name": "checkbox",
-                "defaultValue": ["Pear"],
-                "props": {
-                  "options": [
-                    {
-                      "label": "Apple",
-                      "value": "apple"
-                    },
-                    {
-                      "label": "Pear",
-                      "value": "pear"
-                    },
-                    {
-                      "label": "Orange",
-                      "value": "orange"
-                    }
-                  ]
-                }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 12,
-            "childElements": [
-              {
-                "component": "Radio",
-                "label": "yo radio",
-                "name": "radio",
-                "defaultValue": "Pear",
-                "props": {
-                  "disabled": true,
-                  "options": [
-                    {
-                      "label": "Apple",
-                      "value": "apple",
-                      "disabled": true
-                    },
-                    {
-                      "label": "Pear",
-                      "value": "pear"
-                    },
-                    {
-                      "label": "Orange",
-                      "value": "orange"
-                    }
-                  ]
-                }
-              }
-            ]
-          },
+       
+          // {
+          //   "component": "Col",
+          //   "size": 12,
+          //   "childElements": [
+          //     {
+          //       "component": "Password",
+          //       "label": "yo password",
+          //       "name": "password",
+          //       "props": {
+          //         "placeholder": "yo textarea",
+          //         "allowClear": true // show clear button
+          //       }
+          //     }
+          //   ]
+          // },
+          // {
+          //   "component": "Col",
+          //   "size": 12,
+          //   "childElements": [
+          //     {
+          //       "component": "InputNumber",
+          //       "label": "yo InputNumber",
+          //       "name": "InputNumber",
+          //       "defaultValue": 3,
+          //       "props": {
+          //         "min": 1,
+          //         "max": 10
+          //       }
+          //     }
+          //   ]
+          // },
+          // {
+          //   "component": "Col",
+          //   "size": 12,
+          //   "childElements": [
+          //     {
+          //       "component": "Checkbox",
+          //       "label": "yo checkbox",
+          //       "name": "checkbox",
+          //       "defaultValue": ["Pear"],
+          //       "props": {
+          //         "options": [
+          //           {
+          //             "label": "Apple",
+          //             "value": "apple"
+          //           },
+          //           {
+          //             "label": "Pear",
+          //             "value": "pear"
+          //           },
+          //           {
+          //             "label": "Orange",
+          //             "value": "orange"
+          //           }
+          //         ]
+          //       }
+          //     }
+          //   ]
+          // },
+          // {
+          //   "component": "Col",
+          //   "size": 12,
+          //   "childElements": [
+          //     {
+          //       "component": "Radio",
+          //       "label": "yo radio",
+          //       "name": "radio",
+          //       "defaultValue": "Pear",
+          //       "props": {
+          //         "disabled": true,
+          //         "options": [
+          //           {
+          //             "label": "Apple",
+          //             "value": "apple",
+          //             "disabled": true
+          //           },
+          //           {
+          //             "label": "Pear",
+          //             "value": "pear"
+          //           },
+          //           {
+          //             "label": "Orange",
+          //             "value": "orange"
+          //           }
+          //         ]
+          //       }
+          //     }
+          //   ]
+          // },
           {
             "component": "Col",
             "size": 12,
@@ -182,68 +168,54 @@
               }
             ]
           },
-          {
-            "component": "Col",
-            "size": 12,
-            "childElements": [
-              {
-                "component": "RangePicker",
-                "label": "yo RangePicker",
-                "name": "RangePicker",
-                "defaultValue": "2015/01/01",
-                "props": {
-                  "format": "YYYY/MM/DD",
-                  "size": "large"
-                }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 12,
-            "childElements": [
-              {
-                "component": "Switch",
-                "label": "yo Switch",
-                "name": "Switch",
-                "defaultValue": true,
-                "props": {
-                  // size: small | default
-                }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 24,
-            "childElements": [
-              {
-                "component": "Upload",
-                "buttonText": "upload image",
-                "icon": "Upload",
-                "props": {
-                  "accept": "image/*", // file type
-                  "action": "https://www.mocky.io/v2/5cc8019d300000980a055e76" //upload url
-                }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 12,
-            "childElements": [
-              {
-                "component": "Typography",
-                "type": "h3", // h1, h2, h3, h4, h5, h6, p
-                "content": "yo typography",
-                "props": {
-                  "style": {
-                    "color": "gray"
-                  }
-                }
-              }
-            ]
-          },
+          // {
+          //   "component": "Col",
+          //   "size": 12,
+          //   "childElements": [
+          //     {
+          //       "component": "RangePicker",
+          //       "label": "yo RangePicker",
+          //       "name": "RangePicker",
+          //       "defaultValue": "2015/01/01",
+          //       "props": {
+          //         "format": "YYYY/MM/DD",
+          //         "size": "large"
+          //       }
+          //     }
+          //   ]
+          // },
+          // {
+          //   "component": "Col",
+          //   "size": 12,
+          //   "childElements": [
+          //     {
+          //       "component": "Switch",
+          //       "label": "yo Switch",
+          //       "name": "Switch",
+          //       "defaultValue": true,
+          //       "props": {
+          //         // size: small | default
+          //       }
+          //     }
+          //   ]
+          // },
+          
+          // {
+          //   "component": "Col",
+          //   "size": 12,
+          //   "childElements": [
+          //     {
+          //       "component": "Typography",
+          //       "type": "h3", // h1, h2, h3, h4, h5, h6, p
+          //       "content": "yo typography",
+          //       "props": {
+          //         "style": {
+          //           "color": "gray"
+          //         }
+          //       }
+          //     }
+          //   ]
+          // },
           {
             "component": "Col",
             "size": 12,
@@ -260,26 +232,70 @@
               }
             ]
           },
+          // {
+          //   "component": "Col",
+          //   "size": 12,
+          //   "childElements": [
+          //     {
+          //       "component": "Select",
+          //       "label": "Nationality",
+          //       "name": "nationality",
+          //       "defaultValue": "bd",
+          //       "props": {
+          //         "options": [
+          //           {
+          //             "label": "Bangladeshi",
+          //             "value": "bd"
+          //           },
+          //           {
+          //             "label": "Indian",
+          //             "value": "in"
+          //           }
+          //         ]
+          //       }
+          //     }
+          //   ]
+          // },
+          // {
+          //   "component": "Col",
+          //   "size": 24,
+          //   "childElements": [
+          //     {
+          //       "component": "Alert",
+          //       "props": {
+          //         "title": "Alert title",
+          //         "description": "Alert description",
+          //         "type": "info", // success | info | warning | error
+          //         "style": {
+          //           "backgroundColor": "lightgray",
+          //           "borderColor": "gray"
+          //         }
+          //       }
+          //     }
+          //   ]
+          // },
+          // {
+          //   "component": "Col",
+          //   "size": 24,
+          //   "childElements": [
+          //     {
+          //       "component": "Button",
+          //       "type": "primary", // primary, ghost, dashed, link, text, default
+          //       "content": "Submit"
+          //     }
+          //   ]
+          // },
           {
             "component": "Col",
-            "size": 12,
+            "size": 24,
             "childElements": [
               {
-                "component": "Select",
-                "label": "Nationality",
-                "name": "nationality",
-                "defaultValue": "bd",
+                "component": "TextArea",
+                "label": "Comment",
+                "name": "comment",
                 "props": {
-                  "options": [
-                    {
-                      "label": "Bangladeshi",
-                      "value": "bd"
-                    },
-                    {
-                      "label": "Indian",
-                      "value": "in"
-                    }
-                  ]
+                  "placeholder": "yo textarea",
+                  "rows": 4 // number of rows for textarea
                 }
               }
             ]
@@ -289,27 +305,13 @@
             "size": 24,
             "childElements": [
               {
-                "component": "Alert",
+                "component": "Upload",
+                "buttonText": "upload image",
+                "icon": "Upload",
                 "props": {
-                  "title": "Alert title",
-                  "description": "Alert description",
-                  "type": "info", // success | info | warning | error
-                  "style": {
-                    "backgroundColor": "lightgray",
-                    "borderColor": "gray"
-                  }
+                  "accept": "image/*", // file type
+                  "action": "https://www.mocky.io/v2/5cc8019d300000980a055e76" //upload url
                 }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 24,
-            "childElements": [
-              {
-                "component": "Button",
-                "type": "primary", // primary, ghost, dashed, link, text, default
-                "content": "Submit"
               }
             ]
           }
