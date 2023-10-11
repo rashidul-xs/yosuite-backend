@@ -1,7 +1,14 @@
 {
   "data": {
-    "title": "Basic Information", // title of the table component
+    "title": "Visa Information", // title of the table component
     "icon": "Profile",
+    "actionButton": {
+      // action button properties of the card component, if exists
+      "label": "Edit",
+      "icon": "EditOutline",
+      "targetComponent": "Form", // target component to be loaded when the button is clicked
+      "placement": "top"
+    },
     "columns": [
       {
         "title": "Name", // title of the column
