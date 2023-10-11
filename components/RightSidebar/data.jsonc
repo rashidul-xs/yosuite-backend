@@ -35,19 +35,19 @@
     ],
     "personalInformation": [
       {
-        "icon": "Email",
+        "icon": "MailOutline",
         "title": "help@gmail.com"
       },
       {
-        "icon": "Phone",
+        "icon": "PhoneCallOutline",
         "title": "+91 1234567890"
       },
       {
-        "icon": "Location",
+        "icon": "LocationOutline",
         "title": "India"
       },
       {
-        "icon": "Clock",
+        "icon": "ClockOutline",
         "title": "GMT +5:30"
       }
     ],
@@ -105,20 +105,16 @@
     },
     "socialLinks": [
       {
-        "icon": "Facebook",
+        "icon": "FacebookOutline",
         "url": "https://facebook.com",
         "size": 12
       },
       {
-        "icon": "Twitter",
+        "icon": "TwitterOutline",
         "url": "https://twitter.com"
       },
       {
-        "icon": "Instagram",
-        "url": "https://instagram.com"
-      },
-      {
-        "icon": "Linkedin",
+        "icon": "LinkedinOutline",
         "url": "https://linkedin.com"
       }
     ]
