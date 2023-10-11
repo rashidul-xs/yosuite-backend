@@ -1,9 +1,9 @@
 {
     "responseType": "success",
     "data": {
-        "icon": "Dashboard",  // icon of the component.
+        "icon": "Clock",  // icon of the component.
         "title": { // title properties of the component
-            "text": "Dashboard",
+            "text": "History",
             "style": {
                 "color": "#000000",
                 "fontSize": "16px",
