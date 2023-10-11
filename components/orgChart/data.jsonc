@@ -13,8 +13,8 @@
       "date_hired": "15 Jan 2015",
       "email": "hr@company.com",
       "phone": "+1-555-555-5555",
-      "parentId": "",
-      "id": "1"
+      "parentId": "", // immediate parent id of current data node
+      "id": "1" // unique id of current data node
     },
     {
       "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
