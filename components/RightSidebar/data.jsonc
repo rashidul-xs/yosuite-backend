@@ -7,14 +7,8 @@
     "status": {
       "current": "Active",
       "options": [
-        {
-          "label": "Active",
-          "value": "active"
-        },
-        {
-          "label": "On Leave",
-          "value": "leave"
-        }
+        { "value": "active", "label": "Active", "className": "success" },
+        { "value": "leave", "label": "On Leave", "className": "danger" }
       ]
     },
     "officialInformation": [
