@@ -20,19 +20,19 @@
       "userId": "8dfg4df56g7",
       "role": "admin",
       "roleId": "ers4f35ds7f",
-      "name": "Salekin",
+      "name": "Al Emran",
+      "subscriptionType": "Pro",
       "avatar": "https://cdn.yosuite.com/myavatar.png", // profile image url
-      "email": "salekin@gmail.com",
+      "email": "emran@gmail.com",
       "lastUpdated": "1693717770398"
     },
     "routes": [
-      // all routes with components information
       {
         "path": "/",
         "label": "Dashboard",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "HistoryTimeline": "HistoryTimeline",
+          "timeline": "TimelineHistory",
           "RightSidebar": "RightSidebar"
         }
       },
@@ -41,31 +41,51 @@
         "label": "Profile",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
+          "header": "Heading",
+          "breadcrumb": "Breadcrumb",
+          "navigationbar": "NavigationBar",
           "BasicInformationCard": "InformationCard",
           "AddressInformationCard": "InformationCard",
+          "EmergencyInformationCard": "InformationCard",
+          "BankInformationCard": "InformationCard",
+          "EducationInformationCard": "InformationCard",
+          "SocialInformationCard": "InformationCard",
           "VisaInformationTable": "InformationTable",
-          "LeftSidebar": "LeftSidebar"
+          "timeline": "HistoryTimeline",
+          "RightSidebar": "RightSidebar"
         }
       },
       {
-        "path": "/people/usersGrid",
-        "label": "Users",
+        "path": "/people/manage_employee",
+        "label": "Manage Employee",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
+          "navigationbar": "NavigationBar",
           "UserGrid": "UserGrid"
         }
       },
       {
-        "path": "/people/usersTable",
-        "label": "Users",
+        "path": "/people/directory",
+        "label": "Directory",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "UserTable": "UserTable"
+          "orgChart": "OrgChart"
+        }
+      },
+      {
+        "path": "/people/org_chart",
+        "label": "Org Chart",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "header": "Heading",
+          "breadcrumb": "Breadcrumb",
+          "navigationbar": "NavigationBar",
+          "PeopleCards": "PeopleCards",
+          "PeopleTable": "PeopleTable"
         }
       }
     ],
     "mainSidebar": [
-      // main sidebar menu items information
       {
         "label": "Dashboard",
         "icon": "Dashboard",
@@ -78,35 +98,37 @@
       },
       {
         "label": "People",
-        "icon": "People",
+        "icon": "Company",
         "url": null,
         "target": "_self",
-        "style": {
-          "color": "#ff00bb"
-        },
         "children": [
           {
             "label": "Profile",
             "icon": null,
             "url": "/people/profile",
             "target": "_self",
-            "style": {
-              "color": "#ff00bb"
-            },
             "children": null
           },
           {
-            "label": "Users",
+            "label": "Manage Employee",
             "icon": null,
-            "url": "/people/usersGrid",
+            "url": "/people/manage_employee",
             "target": "_self",
             "style": null,
             "children": null
           },
           {
-            "label": "Users",
+            "label": "Directory",
             "icon": null,
-            "url": "/people/usersTable",
+            "url": "/people/directory",
+            "target": "_self",
+            "style": null,
+            "children": null
+          },
+          {
+            "label": "Org Chart",
+            "icon": null,
+            "url": "/people/org_chart",
             "target": "_self",
             "style": null,
             "children": null
@@ -125,7 +147,7 @@
         "children": [
           {
             "label": "Profile",
-            "icon": null,
+            "icon": "Payroll",
             "url": "/people/profile",
             "target": "_self",
             "style": {
@@ -135,27 +157,16 @@
           },
           {
             "label": "Users",
-            "icon": null,
+            "icon": "UserOutline",
             "url": "/people/usersGrid",
             "target": "_self",
             "style": null,
-            "children": null
-          },
-          {
-            "label": "Users",
-            "icon": null,
-            "url": "/people/usersTable",
-            "target": "_self",
-            "style": {
-              "color": "#ff00bb"
-            },
             "children": null
           }
         ]
       }
     ],
     "topRightMenu": [
-      // top right menu items information
       {
         "label": "text",
         "icon": "box",
@@ -171,7 +182,6 @@
         "url": "/people/82",
         "target": "_self",
         "children": [
-          // if children is provided, the menu item will be a dropdown menu
           {
             "label": "text",
             "icon": "box",

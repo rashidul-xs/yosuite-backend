@@ -29,7 +29,7 @@
                 "label": "Dashboard",
                 "layoutComponent": "CommonLayout",
                 "innerComponents": {
-                    "TimelineHistory": "TimelineHistory",
+                    "timeline": "TimelineHistory",
                     "RightSidebar": "RightSidebar"
                 }
             },
@@ -38,9 +38,9 @@
                 "label": "Profile",
                 "layoutComponent": "CommonLayout",
                 "innerComponents": {
-                    "ProfilePageHeading": "Heading",
-                    "Breadcrumb": "Breadcrumb",
-                    "NavigationBar": "NavigationBar",
+                    "header": "Heading",
+                    "breadcrumb": "Breadcrumb",
+                    "navigationbar": "NavigationBar",
                     "BasicInformationCard": "InformationCard",
                     "AddressInformationCard": "InformationCard",
                     "EmergencyInformationCard": "InformationCard",
@@ -48,7 +48,7 @@
                     "EducationInformationCard": "InformationCard",
                     "SocialInformationCard": "InformationCard",
                     "VisaInformationTable": "InformationTable",
-                    "TimelineHistory": "HistoryTimeline",
+                    "timeline": "HistoryTimeline",
                     "RightSidebar": "RightSidebar"
                 }
             },
@@ -57,7 +57,7 @@
                 "label": "Manage Employee",
                 "layoutComponent": "CommonLayout",
                 "innerComponents": {
-                    "NavigationBar": "NavigationBar",
+                    "navigationbar": "NavigationBar",
                     "UserGrid": "UserGrid"
                 }
             },
@@ -66,7 +66,7 @@
                 "label": "Directory",
                 "layoutComponent": "CommonLayout",
                 "innerComponents": {
-                    "UserTable": "UserTable"
+                    "orgChart": "OrgChart"
                 }
             },
             {
@@ -74,7 +74,11 @@
                 "label": "Org Chart",
                 "layoutComponent": "CommonLayout",
                 "innerComponents": {
-                    "UserTable": "UserTable"
+                    "header": "Heading",
+                    "breadcrumb": "Breadcrumb",
+                    "navigationbar": "NavigationBar",
+                    "PeopleCards": "PeopleCards",
+                    "PeopleTable": "PeopleTable"
                 }
             }
         ],
