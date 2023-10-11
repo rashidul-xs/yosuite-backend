@@ -38,9 +38,9 @@
         }
       },
       {
-        "title": "Tags",
-        "dataIndex": "tags",
-        "key": "tags",
+        "title": "Status",
+        "dataIndex": "status",
+        "key": "status",
         "dataStyle": {
           // styles of the specific table data (optional)
           "padding": "10px",
