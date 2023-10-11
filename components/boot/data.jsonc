@@ -91,9 +91,6 @@
         "icon": "Dashboard",
         "url": "/",
         "target": "_self",
-        "style": {
-          "color": "#fwx00bb"
-        },
         "children": null
       },
       {
@@ -141,9 +138,6 @@
         "icon": "Company",
         "url": null,
         "target": "_self",
-        "style": {
-          "color": "#ff00bb"
-        },
         "children": [
           {
             "label": "Profile",
@@ -185,18 +179,14 @@
           {
             "label": "text",
             "icon": "box",
-            "style": {
-              "color": "#f00"
-            },
+           
             "url": "/people/82",
             "target": "_self"
           },
           {
             "label": "text",
             "icon": "box",
-            "style": {
-              "color": "#f00"
-            },
+          
             "url": "/people/82",
             "target": "_self"
           }
