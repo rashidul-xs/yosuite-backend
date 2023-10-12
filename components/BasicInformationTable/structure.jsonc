@@ -90,7 +90,7 @@
       //   }
       // },
       {
-        "title": "",
+        "title": "Action",
         "key": "...",
         "renderOptions": {
           "action": {
