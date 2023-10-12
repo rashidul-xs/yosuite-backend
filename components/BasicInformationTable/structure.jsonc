@@ -95,21 +95,21 @@
         "renderOptions": {
           "action": {
             "type": "button",
-            "icon": "Delete",
+            "icon": "MoreHorizontalOutline",
             "menuItems": [
               // action button is a dropdown menu, menuItems will be used to show the dropdown menu items
-              {
-                "text": "Delete",
-                "onClick": {
-                  "type": "delete",
-                  "endpoint": "https://jsonplaceholder.typicode.com/posts/1" // if endpoint is provided, there will be an api call when the button is clicked
-                }
-              },
               {
                 "text": "Edit",
                 "onClick": {
                   "type": "edit",
                   "targetComponent": "Form" // if targetComponent is provided, the target component will be opened when the button is clicked
+                }
+              },
+              {
+                "text": "Delete",
+                "onClick": {
+                  "type": "delete",
+                  "endpoint": "https://jsonplaceholder.typicode.com/posts/1" // if endpoint is provided, there will be an api call when the button is clicked
                 }
               }
             ]
