@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/1.jpg",
       "name": "Tarana Burke",
       "job_title": "cto",
       "line_manager": null,
@@ -17,7 +17,7 @@
       "id": "1" // unique id of current data node
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/2.jpg",
       "name": "David Lee",
       "job_title": "UI Designer",
       "line_manager": "Tarana Burke",
@@ -33,7 +33,7 @@
       "id": "2"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/3.jpg",
       "name": "Sarah Johnson",
       "job_title": "Product Manager",
       "line_manager": "David Lee",
@@ -49,7 +49,7 @@
       "id": "3"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/4.jpg",
       "name": "Michael Brown",
       "job_title": "Full Stack Developer",
       "line_manager": "David Lee",
@@ -65,7 +65,7 @@
       "id": "4"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/5.jpg",
       "name": "Emma Davis",
       "job_title": "Technical Writer",
       "line_manager": "Tarana Burke",
@@ -81,7 +81,7 @@
       "id": "5"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/6.jpg",
       "name": "Christopher Wilson",
       "job_title": "Frontend Developer",
       "line_manager": "Emma Davis",
@@ -97,7 +97,7 @@
       "id": "6"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/7.jpg",
       "name": "Ava Garcia",
       "job_title": "Marketing Manager",
       "line_manager": "Tarana Burke",
@@ -113,7 +113,7 @@
       "id": "7"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/8.jpg",
       "name": "William Rodriguez",
       "job_title": "Backend Developer",
       "line_manager": "Ava Garcia",
@@ -129,7 +129,7 @@
       "id": "8"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/9.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/9.jpg",
       "name": "Sophia Martinez",
       "job_title": "UI Designer",
       "line_manager": "Ava Garcia",
@@ -145,7 +145,7 @@
       "id": "9"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/10.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/10.jpg",
       "name": "James Anderson",
       "job_title": "Product Manager",
       "line_manager": "Tarana Burke",
@@ -161,7 +161,7 @@
       "id": "10"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/11.jpg",
       "name": "Olivia Thomas",
       "job_title": "Full Stack Developer",
       "line_manager": "Sophia Martinez",
@@ -177,7 +177,7 @@
       "id": "11"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/12.jpg",
       "name": "Benjamin Hernandez",
       "job_title": "Technical Writer",
       "line_manager": "James Anderson",
@@ -193,7 +193,7 @@
       "id": "12"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/13.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/13.jpg",
       "name": "Isabella Moore",
       "job_title": "Frontend Developer",
       "line_manager": "Olivia Thomas",
@@ -209,7 +209,7 @@
       "id": "13"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/14.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/14.jpg",
       "name": "Ethan Jackson",
       "job_title": "Marketing Manager",
       "line_manager": "Benjamin Hernandez",
@@ -225,7 +225,7 @@
       "id": "14"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/15.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/15.jpg",
       "name": "Mia Thompson",
       "job_title": "Backend Developer",
       "line_manager": "Isabella Moore",
@@ -241,7 +241,7 @@
       "id": "15"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/16.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/16.jpg",
       "name": "Alexander White",
       "job_title": "UI Designer",
       "line_manager": "Ethan Jackson",
@@ -257,7 +257,7 @@
       "id": "16"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/17.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/17.jpg",
       "name": "Avery Garcia",
       "job_title": "Product Manager",
       "line_manager": "Mia Thompson",
@@ -273,7 +273,7 @@
       "id": "17"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/18.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/18.jpg",
       "name": "Daniel Martinez",
       "job_title": "Full Stack Developer",
       "line_manager": "Alexander White",
@@ -289,7 +289,7 @@
       "id": "18"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/19.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/19.jpg",
       "name": "Evelyn Davis",
       "job_title": "Technical Writer",
       "line_manager": "Avery Garcia",
@@ -305,7 +305,7 @@
       "id": "19"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/20.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/20.jpg",
       "name": "Joseph Wilson",
       "job_title": "Frontend Developer",
       "line_manager": "Daniel Martinez",
@@ -321,7 +321,7 @@
       "id": "20"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/1.jpg",
       "name": "Emily Smith",
       "job_title": "Backend Developer",
       "line_manager": "John Doe",
@@ -337,7 +337,7 @@
       "id": "21"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/2.jpg",
       "name": "David Lee",
       "job_title": "UI Designer",
       "line_manager": "Jane Smith",
@@ -353,7 +353,7 @@
       "id": "22"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/3.jpg",
       "name": "Sarah Johnson",
       "job_title": "Product Manager",
       "line_manager": "Emily Smith",
@@ -369,7 +369,7 @@
       "id": "23"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/4.jpg",
       "name": "Michael Brown",
       "job_title": "Full Stack Developer",
       "line_manager": "David Lee",
@@ -385,7 +385,7 @@
       "id": "24"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/5.jpg",
       "name": "Emma Davis",
       "job_title": "Technical Writer",
       "line_manager": "Sarah Johnson",
@@ -401,7 +401,7 @@
       "id": "25"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/6.jpg",
       "name": "Christopher Wilson",
       "job_title": "Frontend Developer",
       "line_manager": "Michael Brown",
@@ -417,7 +417,7 @@
       "id": "26"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/7.jpg",
       "name": "Ava Garcia",
       "job_title": "Marketing Manager",
       "line_manager": "Emma Davis",
@@ -433,7 +433,7 @@
       "id": "27"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/8.jpg",
       "name": "William Rodriguez",
       "job_title": "Backend Developer",
       "line_manager": "Christopher Wilson",
@@ -449,7 +449,7 @@
       "id": "28"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/9.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/9.jpg",
       "name": "Sophia Martinez",
       "job_title": "UI Designer",
       "line_manager": "Ava Garcia",
@@ -465,7 +465,7 @@
       "id": "29"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/10.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/10.jpg",
       "name": "James Anderson",
       "job_title": "Product Manager",
       "line_manager": "William Rodriguez",
@@ -481,7 +481,7 @@
       "id": "30"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/11.jpg",
       "name": "Olivia Thomas",
       "job_title": "Full Stack Developer",
       "line_manager": "Sophia Martinez",
@@ -497,7 +497,7 @@
       "id": "31"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/12.jpg",
       "name": "Benjamin Hernandez",
       "job_title": "Technical Writer",
       "line_manager": "James Anderson",
@@ -513,7 +513,7 @@
       "id": "32"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/13.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/13.jpg",
       "name": "Isabella Moore",
       "job_title": "Frontend Developer",
       "line_manager": "Olivia Thomas",
@@ -529,7 +529,7 @@
       "id": "33"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/14.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/14.jpg",
       "name": "Ethan Jackson",
       "job_title": "Marketing Manager",
       "line_manager": "Benjamin Hernandez",
@@ -545,7 +545,7 @@
       "id": "34"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/15.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/15.jpg",
       "name": "Mia Thompson",
       "job_title": "Backend Developer",
       "line_manager": "Isabella Moore",
@@ -561,7 +561,7 @@
       "id": "35"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/16.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/16.jpg",
       "name": "Alexander White",
       "job_title": "UI Designer",
       "line_manager": "Ethan Jackson",
@@ -577,7 +577,7 @@
       "id": "36"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/17.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/17.jpg",
       "name": "Avery Garcia",
       "job_title": "Product Manager",
       "line_manager": "Mia Thompson",
@@ -593,7 +593,7 @@
       "id": "37"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/18.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/18.jpg",
       "name": "Daniel Martinez",
       "job_title": "Full Stack Developer",
       "line_manager": "Alexander White",
@@ -609,7 +609,7 @@
       "id": "38"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/women/19.jpg",
+      "photo": "https://randomuser.me/api/portraits/women/19.jpg",
       "name": "Evelyn Davis",
       "job_title": "Technical Writer",
       "line_manager": "Avery Garcia",
@@ -625,7 +625,7 @@
       "id": "39"
     },
     {
-      "imageUrl": "https://randomuser.me/api/portraits/men/20.jpg",
+      "photo": "https://randomuser.me/api/portraits/men/20.jpg",
       "name": "Joseph Wilson",
       "job_title": "Frontend Developer",
       "department": "Engineering",
