@@ -7,13 +7,23 @@
     },
     {
       "label": "User Grid",
-      "url": "/people/manage_employee",
+      "url": "/people/user_grid",
       "key": "manage_employee"
     },
     {
-      "label": "Logout",
-      "url": "/people/logout",
-      "key": "logout"
+      "label": "Org Chart",
+      "url": "/people/org_chart",
+      "key": "org_chart"
+    },
+    {
+      "label": "User Table",
+      "url": "/people/user_table",
+      "key": "user_table"
+    },
+    {
+      "label": "User List",
+      "url": "/people/user_list",
+      "key": "user_list"
     }
   ]
 }

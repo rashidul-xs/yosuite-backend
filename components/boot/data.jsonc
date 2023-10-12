@@ -32,6 +32,7 @@
         "label": "Dashboard",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
+          "BasicInformationCard": "InformationCard",
           "timeline": "TimelineHistory",
           "RightSidebar": "RightSidebar"
         }
@@ -45,31 +46,31 @@
           "breadcrumb": "Breadcrumb",
           "navigationbar": "NavigationBar",
           "BasicInformationCard": "InformationCard",
-          "AddressInformationCard": "InformationCard",
-          "EmergencyInformationCard": "InformationCard",
-          "BankInformationCard": "InformationCard",
-          "EducationInformationCard": "InformationCard",
-          "SocialInformationCard": "InformationCard",
-          "VisaInformationTable": "InformationTable",
-          "timeline": "HistoryTimeline",
+          "BasicInformationTable": "InformationTable",
+          "timeline": "TimelineHistory",
           "RightSidebar": "RightSidebar"
         }
       },
       {
-        "path": "/people/manage_employee",
-        "label": "Manage Employee",
+        "path": "/people/user_grid",
+        "label": "User Grid",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
+          "header": "Heading",
+          "breadcrumb": "Breadcrumb",
           "navigationbar": "NavigationBar",
-          "UserGrid": "UserGrid"
+          "PeopleCards": "PeopleCards"
         }
       },
       {
-        "path": "/people/directory",
-        "label": "Directory",
+        "path": "/people/user_table",
+        "label": "User Table",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "orgChart": "OrgChart"
+          "header": "Heading",
+          "breadcrumb": "Breadcrumb",
+          "navigationbar": "NavigationBar",
+          "PeopleTable": "PeopleTable"
         }
       },
       {
@@ -80,8 +81,7 @@
           "header": "Heading",
           "breadcrumb": "Breadcrumb",
           "navigationbar": "NavigationBar",
-          "PeopleCards": "PeopleCards",
-          "PeopleTable": "PeopleTable"
+          "orgChart": "OrgChart"
         }
       }
     ],
@@ -107,17 +107,17 @@
             "children": null
           },
           {
-            "label": "Manage Employee",
+            "label": "User Table",
             "icon": null,
-            "url": "/people/manage_employee",
+            "url": "/people/user_table",
             "target": "_self",
             "style": null,
             "children": null
           },
           {
-            "label": "Directory",
+            "label": "User Grid",
             "icon": null,
-            "url": "/people/directory",
+            "url": "/people/user_grid",
             "target": "_self",
             "style": null,
             "children": null
@@ -135,7 +135,7 @@
       {
         "label": "Your Company",
         "type": "group",
-        "icon": "Company",
+        "icon": "UserOutline",
         "url": null,
         "target": "_self",
         "children": [

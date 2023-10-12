@@ -1,5 +1,14 @@
 {
   "data": {
+    "title": "Visa Information", // title of the table component
+    "icon": "Profile",
+    "actionButton": {
+      // action button properties of the card component, if exists
+      "label": "Edit",
+      "icon": "EditOutline",
+      "targetComponent": "Form", // target component to be loaded when the button is clicked
+      "placement": "top"
+    },
     "columns": [
       {
         "title": "Name", // title of the column
@@ -29,9 +38,9 @@
         }
       },
       {
-        "title": "Tags",
-        "dataIndex": "tags",
-        "key": "tags",
+        "title": "Status",
+        "dataIndex": "status",
+        "key": "status",
         "dataStyle": {
           // styles of the specific table data (optional)
           "padding": "10px",
@@ -110,7 +119,6 @@
     ],
     "props": {
       "cellBorder": false, // border between cells
-      "title": "Table Title", // title of the table
       "pagination": {
         "position": "topLeft", // topLeft, topCenter, topRight, bottomLeft, bottomCenter, bottomRight
         "pageSize": 10,
