@@ -55,16 +55,16 @@
           "dataVisualization": {
             "active": {
               // active, inactive, hold are the table data which will be showed in the UI according to the conditions
-              "color": "#fff",
-              "background": "#3EB205"
+              "color": "green",
+              "background": "lightgreen"
             },
             "inactive": {
-              "color": "#fff",
-              "background": "#FC4143"
+              "color": "blue",
+              "background": "lightblue"
             },
             "hold": {
-              "color": "#fff",
-              "background": "#FDAA08"
+              "color": "black",
+              "background": "white"
             }
           }
         }
@@ -90,7 +90,7 @@
         }
       },
       {
-        "title": "",
+        "title": "...",
         "key": "...",
         "renderOptions": {
           "action": {
