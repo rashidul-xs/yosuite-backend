@@ -1,11 +1,11 @@
 {
   "data": {
-    "id": "BasicInformationTableForm",
+    "id": "VisaInformationTableForm",
     "submissionUrl": "https://jsonplaceholder.typicode.com/posts", // form submission url
     "method": "POST",
     "formHeader": {
-      "title": "Basic Information",
-      "icon": "Profile",
+      "title": "Visa Information",
+      "icon": "OfficeBag",
       "submitButton": {
         "title": "Submit",
         "placement": "right",
@@ -37,13 +37,13 @@
             "childElements": [
               {
                 "component": "Input",
-                "label": "First Name",
-                "name": "first_name",
+                "label": "Name",
+                "name": "name",
                 "defaultValue": "John Doe",
                 "helpText": "this is tooltip or help text",
                 "rules": "required|min:5|max:10",
                 "props": {
-                  "placeholder": "Enter your first name"
+                  "placeholder": "Enter your name"
                 }
               }
             ]
@@ -53,17 +53,16 @@
             "size": 12,
             "childElements": [
               {
-                "component": "Input",
-                "label": "Last Name",
-                "name": "last_name",
-                "rules": "required|min:5|max:10",
+                "component": "InputNumber",
+                "label": "Age",
+                "name": "age",
+                "rules": "required|min:2|max:3",
                 "props": {
-                  "placeholder": "Enter your last name"
+                  "placeholder": "Enter your Age"
                 }
               }
             ]
           },
-       
           // {
           //   "component": "Col",
           //   "size": 12,
@@ -199,7 +198,6 @@
           //     }
           //   ]
           // },
-          
           // {
           //   "component": "Col",
           //   "size": 12,
@@ -221,41 +219,29 @@
             "size": 12,
             "childElements": [
               {
-                "component": "Slider",
-                "label": "yo slider",
-                "name": "slider",
-                "defaultValue": 30,
+                "component": "Select",
+                "label": "Status",
+                "name": "status",
+                "defaultValue": "active",
                 "props": {
-                  "min": 1,
-                  "max": 100
+                  "options": [
+                    {
+                      "label": "Active",
+                      "value": "active"
+                    },
+                    {
+                      "label": "Inactive",
+                      "value": "inactive"
+                    },
+                    {
+                      "label": "Hold",
+                      "value": "hold"
+                    }
+                  ]
                 }
               }
             ]
           },
-          // {
-          //   "component": "Col",
-          //   "size": 12,
-          //   "childElements": [
-          //     {
-          //       "component": "Select",
-          //       "label": "Nationality",
-          //       "name": "nationality",
-          //       "defaultValue": "bd",
-          //       "props": {
-          //         "options": [
-          //           {
-          //             "label": "Bangladeshi",
-          //             "value": "bd"
-          //           },
-          //           {
-          //             "label": "Indian",
-          //             "value": "in"
-          //           }
-          //         ]
-          //       }
-          //     }
-          //   ]
-          // },
           // {
           //   "component": "Col",
           //   "size": 24,
@@ -291,26 +277,11 @@
             "childElements": [
               {
                 "component": "TextArea",
-                "label": "Comment",
-                "name": "comment",
+                "label": "Address",
+                "name": "address",
                 "props": {
-                  "placeholder": "yo textarea",
-                  "rows": 4 // number of rows for textarea
-                }
-              }
-            ]
-          },
-          {
-            "component": "Col",
-            "size": 24,
-            "childElements": [
-              {
-                "component": "Upload",
-                "buttonText": "upload image",
-                "icon": "Upload",
-                "props": {
-                  "accept": "image/*", // file type
-                  "action": "https://www.mocky.io/v2/5cc8019d300000980a055e76" //upload url
+                  "placeholder": "Enter your address",
+                  "rows": 3 // number of rows for textarea
                 }
               }
             ]
