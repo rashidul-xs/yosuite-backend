@@ -1,11 +1,11 @@
 {
   "data": {
     "title": "Visa Information", // title of the table component
-    "icon": "Profile",
+    "icon": "ClockBag",
     "actionButton": {
       // action button properties of the card component, if exists
-      "label": "Edit",
-      "icon": "EditOutline",
+      "label": "Add New",
+      "icon": "PlusOutline",
       "targetComponent": "Form", // target component to be loaded when the button is clicked
       "placement": "top"
     },
@@ -69,26 +69,26 @@
           }
         }
       },
-      {
-        "title": "Action",
-        "key": "action",
-        "renderOptions": {
-          "action": {
-            // action button in table data cell
-            "type": "button", // element type
-            "text": "Delete",
-            "icon": "Delete",
-            "style": {
-              "color": "red",
-              "background": "lightred"
-            },
-            "onClick": {
-              "type": "delete", // what will be performed when the button is clicked
-              "endpoint": "https://jsonplaceholder.typicode.com/posts/1"
-            }
-          }
-        }
-      },
+      // {
+      //   "title": "Action",
+      //   "key": "action",
+      //   "renderOptions": {
+      //     "action": {
+      //       // action button in table data cell
+      //       "type": "button", // element type
+      //       "text": "Delete",
+      //       "icon": "Delete",
+      //       "style": {
+      //         "color": "red",
+      //         "background": "lightred"
+      //       },
+      //       "onClick": {
+      //         "type": "delete", // what will be performed when the button is clicked
+      //         "endpoint": "https://jsonplaceholder.typicode.com/posts/1"
+      //       }
+      //     }
+      //   }
+      // },
       {
         "title": "",
         "key": "...",
