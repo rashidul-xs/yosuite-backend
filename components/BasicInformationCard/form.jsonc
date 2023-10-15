@@ -28,7 +28,7 @@
       {
         "component": "Row",
         "props": {
-          "gutter": 5 // space between columns
+          "gutter": 16 // space between columns
         },
         "childElements": [
           {
