@@ -135,13 +135,12 @@
       {
         "label": "Your Company",
         "type": "group",
-        "icon": "UserOutline",
         "url": null,
         "target": "_self",
         "children": [
           {
             "label": "Profile",
-            "icon": "Payroll",
+            "icon": "ArchiveOutline",
             "url": "/people/profile",
             "target": "_self",
             "style": {
@@ -151,7 +150,7 @@
           },
           {
             "label": "Users",
-            "icon": "UserOutline",
+            "icon": "ActivityOutline",
             "url": "/people/usersGrid",
             "target": "_self",
             "style": null,
