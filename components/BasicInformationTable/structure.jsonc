@@ -15,7 +15,7 @@
         "dataIndex": "name",
         "key": "name",
         "sorter": {
-          //"defaultSortOrder": "descend" // ascend, descend sorting options in table head
+          "defaultSortOrder": "descend" // ascend, descend sorting options in table head
         }
       },
       {
