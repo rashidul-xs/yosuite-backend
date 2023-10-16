@@ -14,7 +14,7 @@
         "title": "Name", // title of the column
         "dataIndex": "name",
         "key": "name",
-        "sorter": {
+        "sorting": {
           "defaultSortOrder": "descend" // ascend, descend sorting options in table head
         }
       },
