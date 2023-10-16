@@ -11,11 +11,6 @@
       "key": "manage_employee"
     },
     {
-      "label": "Org Chart",
-      "url": "/people/org_chart",
-      "key": "org_chart"
-    },
-    {
       "label": "User Table",
       "url": "/people/user_table",
       "key": "user_table"
