@@ -80,7 +80,6 @@
         "innerComponents": {
           "header": "Heading",
           "breadcrumb": "Breadcrumb",
-          "navigationbar": "NavigationBar",
           "orgChart": "OrgChart"
         }
       }
