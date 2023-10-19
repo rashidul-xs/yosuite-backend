@@ -1,16 +1,16 @@
 {
     "responseType": "success",
     "data": {
-        "icon": "Certificate",  // icon of the component.
-        "title": { // title properties of the component
-            "text": "History",
+        "icon": "Certificate", // icon of the component.
+        "title": "History",
+        "titleStyle": { // style of the title
             "style": {
                 "color": "#000000",
                 "fontSize": "16px",
                 "fontWeight": "bold"
             }
         },
-        "style": {  // style of the component
+        "style": { // style of the component
             "width": "100%",
             "height": "100%",
             "padding": "20px",
