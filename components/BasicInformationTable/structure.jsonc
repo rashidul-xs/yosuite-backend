@@ -100,6 +100,7 @@
               // action button is a dropdown menu, menuItems will be used to show the dropdown menu items
               {
                 "text": "Edit",
+                "icon": "EditOutline",
                 "onClick": {
                   "type": "edit",
                   "targetComponent": "Form" // if targetComponent is provided, the target component will be opened when the button is clicked
@@ -107,6 +108,7 @@
               },
               {
                 "text": "Delete",
+                "icon": "TrashOutline",
                 "onClick": {
                   "type": "delete",
                   "endpoint": "https://jsonplaceholder.typicode.com/posts/1" // if endpoint is provided, there will be an api call when the button is clicked
