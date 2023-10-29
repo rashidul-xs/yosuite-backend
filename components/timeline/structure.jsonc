@@ -1,7 +1,7 @@
 {
     "responseType": "success",
     "data": {
-        "icon": "Certificate", // icon of the component.
+        "icon": "HistoryOutline", // icon of the component.
         "title": "History",
         "titleStyle": { // style of the title
             "style": {
