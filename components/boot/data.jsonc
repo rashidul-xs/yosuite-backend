@@ -32,7 +32,6 @@
         "label": "Dashboard",
         "layoutComponent": "CommonLayout",
         "innerComponents": {
-          "InformationTableTest": "TestTable",
           "BasicInformationCard": "InformationCard",
           "timeline": "TimelineHistory",
           "RightSidebar": "RightSidebar"
