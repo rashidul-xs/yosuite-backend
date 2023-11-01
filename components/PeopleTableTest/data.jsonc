@@ -1,0 +1,128 @@
+{
+  "message": [
+    {
+      "success": ["Data Fetched successfully"]
+    }
+  ],
+  "tracer": null,
+  "data": [
+    {
+      "_id": "6538a3d746e5aa25b905fbd3",
+      "category_id": "6538a3d746e5aa25b905fbd2",
+      "title": "Sit consectetur deserunt aliquid quia repellat adipisci.",
+      "status": "Pending",
+      "user_id": 1,
+      "description": "Saepe veniam dicta sunt quia occaecati natus dolores. Esse numquam voluptatem cumque maiores. Ducimus voluptatibus ut enim alias sit ut corporis. Molestiae et est distinctio.",
+      "updated_at": "2023-10-25T05:12:55.418000Z",
+      "created_at": "2023-10-25T05:12:55.418000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f446e5aa25b905fbd5",
+      "category_id": "6538a3f446e5aa25b905fbd4",
+      "title": "Debitis et quae debitis culpa ut.",
+      "status": "Active",
+      "user_id": 1,
+      "description": "Ex ipsum quis qui ut repellat odit quia. Tenetur quo cupiditate illum assumenda rem inventore quia. Reprehenderit quis molestias in sit quasi. Deserunt quidem nostrum voluptas tempora provident et at.",
+      "updated_at": "2023-10-25T05:13:24.406000Z",
+      "created_at": "2023-10-25T05:13:24.406000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f546e5aa25b905fbd7",
+      "category_id": "6538a3f546e5aa25b905fbd6",
+      "title": "Repudiandae at quia omnis earum dolores.",
+      "status": "Inactive",
+      "user_id": 1,
+      "description": "Et accusantium cum velit fugiat officia ducimus nam. Tenetur rerum veritatis nemo quod velit. Sequi velit accusantium cum ut fuga vel.",
+      "updated_at": "2023-10-25T05:13:25.259000Z",
+      "created_at": "2023-10-25T05:13:25.259000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f546e5aa25b905fbd9",
+      "category_id": "6538a3f546e5aa25b905fbd8",
+      "title": "Quis minus repellendus nihil dolores fuga.",
+      "status": "Active",
+      "user_id": 1,
+      "description": "Beatae excepturi est maxime reiciendis eum officiis asperiores. Sit quae ipsa cupiditate aut et porro dolore. Consequatur a explicabo cum illo adipisci rerum quidem. Vel at necessitatibus sint magnam quos omnis quia.",
+      "updated_at": "2023-10-25T05:13:25.850000Z",
+      "created_at": "2023-10-25T05:13:25.850000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f646e5aa25b905fbdb",
+      "category_id": "6538a3f646e5aa25b905fbda",
+      "title": "Ducimus sint maiores cum eveniet voluptas consequatur.",
+      "status": "Pending",
+      "user_id": 1,
+      "description": "Ipsum quo nihil molestias dolores sunt. Sapiente vero ad illo omnis quod. Voluptates ut facilis dolor sit porro exercitationem.",
+      "updated_at": "2023-10-25T05:13:26.050000Z",
+      "created_at": "2023-10-25T05:13:26.050000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f646e5aa25b905fbdd",
+      "category_id": "6538a3f646e5aa25b905fbdc",
+      "title": "Totam molestiae aperiam ullam.",
+      "status": "Active",
+      "user_id": 1,
+      "description": "Voluptatum ex quae accusantium porro et. Velit et error iste et. Ipsa deserunt placeat quo dolore nobis fugit eum.",
+      "updated_at": "2023-10-25T05:13:26.214000Z",
+      "created_at": "2023-10-25T05:13:26.214000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f646e5aa25b905fbdf",
+      "category_id": "6538a3f646e5aa25b905fbde",
+      "title": "Quia velit qui ut ex quis cupiditate.",
+      "status": "Rejected",
+      "user_id": 1,
+      "description": "Accusantium qui sunt enim earum corrupti. Optio excepturi occaecati saepe modi minima aperiam quos. Ut quis eius accusantium labore quis assumenda. Molestiae sed et esse fugiat ut et. Laudantium unde ducimus animi dolor magni.",
+      "updated_at": "2023-10-25T05:13:26.377000Z",
+      "created_at": "2023-10-25T05:13:26.377000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f646e5aa25b905fbe1",
+      "category_id": "6538a3f646e5aa25b905fbe0",
+      "title": "Iste repudiandae officia aut repellat minus recusandae.",
+      "status": "Active",
+      "user_id": 1,
+      "description": "Ea consequuntur esse asperiores quia et neque ea accusamus. Dolor esse sint accusantium blanditiis. Est ut et veritatis qui. Quis laudantium natus impedit non.",
+      "updated_at": "2023-10-25T05:13:26.532000Z",
+      "created_at": "2023-10-25T05:13:26.532000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f646e5aa25b905fbe3",
+      "category_id": "6538a3f646e5aa25b905fbe2",
+      "title": "Totam eum eum quisquam laudantium asperiores error iste.",
+      "status": "Active",
+      "user_id": 1,
+      "description": "Dolor eveniet nulla est atque totam. Id id ut et alias aspernatur facere. Tempore dolorum molestiae magni corporis omnis.",
+      "updated_at": "2023-10-25T05:13:26.687000Z",
+      "created_at": "2023-10-25T05:13:26.687000Z",
+      "rel_category": null
+    },
+    {
+      "_id": "6538a3f646e5aa25b905fbe5",
+      "category_id": "6538a3f646e5aa25b905fbe4",
+      "title": "Architecto error dolore accusantium aliquid eum culpa ut.",
+      "status": "Pending",
+      "user_id": 1,
+      "description": "Qui ut commodi vero. Voluptas illo labore nesciunt repellat. Eveniet reiciendis et quia et aliquid ut esse. Dolor dolor in ad atque doloremque eum reprehenderit.",
+      "updated_at": "2023-10-25T05:13:26.826000Z",
+      "created_at": "2023-10-25T05:13:26.826000Z",
+      "rel_category": null
+    }
+  ],
+  "current_page": 1,
+  "first_page_url": "http://192.168.1.113:9000/api/post/component/table/data?page=1",
+  "from": 1,
+  "next_page_url": "http://192.168.1.113:9000/api/post/component/table/data?page=2",
+  "path": "http://192.168.1.113:9000/api/post/component/table/data",
+  "per_page": 10,
+  "prev_page_url": null,
+  "to": 10
+}

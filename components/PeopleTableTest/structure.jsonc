@@ -1,0 +1,85 @@
+{
+  "message": [
+    {
+      "success": ["Data Fetched successfully"]
+    }
+  ],
+  "tracer": null,
+  "data": {
+    "columns": [
+      {
+        "title": "Title",
+        "dataIndex": "title",
+        "shorter": true
+      },
+      {
+        "title": "Description",
+        "dataIndex": "description"
+      },
+      {
+        "title": "Status",
+        "dataIndex": "status"
+      },
+      {
+        "title": "Action",
+        "key": "action",
+        "renderOptions": {
+          "action": {
+            "type": "button",
+            "text": "Delete",
+            "icon": "Delete",
+            "style": {
+              "color": "red",
+              "background": "lightred"
+            },
+            "onClick": {
+              "type": "delete",
+              "endpoint": "https://jsonplaceholder.typicode.com/posts/delete/{ID}"
+            }
+          }
+        }
+      },
+      {
+        "title": "...",
+        "key": "...",
+        "renderOptions": {
+          "action": {
+            "type": "button",
+            "icon": "Delete",
+            "menuItems": [
+              {
+                "text": "Delete",
+                "onClick": {
+                  "type": "delete",
+                  "endpoint": "https://jsonplaceholder.typicode.com/posts/delete/{ID}"
+                }
+              },
+              {
+                "text": "Edit",
+                "onClick": {
+                  "type": "edit",
+                  "targetComponent": "Form",
+                  "props": {
+                    "id": "dataIndexofID",
+                    "email": "user_email"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "props": {
+      "cellBorder": false,
+      "fixedHeader": false,
+      "size": "large",
+      "rowSelection": {
+        "type": "checkbox"
+      },
+      "style": {
+        "backgroundColor": "white"
+      }
+    }
+  }
+}
