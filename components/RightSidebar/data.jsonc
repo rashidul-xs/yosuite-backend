@@ -110,7 +110,7 @@
 			"size": 8,
 			"styles": {
 				"color": "#fff",
-				"bgColor": "#4267B2",
+				"bgColor": "#4267B2"
 			}
 		},
 		{
@@ -129,7 +129,7 @@
 			"size": 11,
 			"styles": {
 				"color": "#fff",
-				"bgColor": "#0077b5",
+				"bgColor": "#0077b5"
 			}
 		}
 	]
