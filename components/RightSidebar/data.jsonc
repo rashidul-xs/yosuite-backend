@@ -104,19 +104,33 @@
       }
     },
     "socialLinks": [
-      {
-        "icon": "FacebookOutline",
-        "url": "https://facebook.com",
-        "size": 12
-      },
-      {
-        "icon": "TwitterOutline",
-        "url": "https://twitter.com"
-      },
-      {
-        "icon": "LinkedinOutline",
-        "url": "https://linkedin.com"
-      }
-    ]
+	{
+		"icon": "FacebookOutline",
+		"url": "https://facebook.com",
+		"size": 12,
+		"styles": {
+			"color": "#fff",
+			"bgColor": "#4267B2"
+		}
+	},
+	{
+		"icon": "TwitterOutline",
+		"url": "https://twitter.com",
+		"size": 12,
+		"styles": {
+			"color": "#1DA1F2",
+			"bgColor": "#fff"
+		}
+	},
+	{
+		"icon": "LinkedinOutline",
+		"url": "https://linkedin.com",
+		"size": 12,
+		"styles": {
+			"color": "#0077b5",
+			"bgColor": "#fff"
+		}
+	}
+]
   }
 }
