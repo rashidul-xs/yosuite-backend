@@ -148,7 +148,7 @@
           {
             "label": "Profile",
             "icon": "ArchiveOutline",
-            "url": "/people/profile",
+            "url": "#",
             "key": "2-0",
             "target": "_self",
             "style": {
