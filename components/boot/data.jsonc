@@ -38,14 +38,6 @@
         }
       },
       {
-        "path": "/people/:id",
-        "label": "Dynamic ID",
-        "layoutComponent": "CommonLayout",
-        "innerComponents": {
-          "DynamicID": "DynamicID"
-        }
-      },
-      {
         "path": "/people/profile",
         "label": "Profile",
         "layoutComponent": "CommonLayout",
@@ -89,6 +81,14 @@
           "header": "Heading",
           "breadcrumb": "Breadcrumb",
           "orgChart": "OrgChart"
+        }
+      },
+      {
+        "path": "/people/:id",
+        "label": "Dynamic ID",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "DynamicID": "DynamicID"
         }
       }
     ],
