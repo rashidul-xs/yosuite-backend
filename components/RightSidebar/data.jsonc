@@ -110,7 +110,7 @@
 			"size": 8,
 			"style": {
 				"color": "#fff",
-				"bgColor": "#4267B2"
+				"backgroundColor": "#4267B2"
 			}
 		},
 		{
@@ -119,7 +119,7 @@
 			"size": 12,
 			"style": {
 				"color": "#1DA1F2",
-				"bgColor": "#fff",
+				"backgroundColor": "#fff",
 				"borderColor": "#1DA1F2"
 			}
 		},
@@ -129,7 +129,7 @@
 			"size": 11,
 			"style": {
 				"color": "#fff",
-				"bgColor": "#0077b5"
+				"backgroundColor": "#0077b5"
 			}
 		}
 	]
