@@ -3,8 +3,8 @@
     "title": "Basic Information", // title of the card component
     "icon": "Profile", // icon of the card component. located before the title
     "cols": 3, // number of columns the card component will take to show data
-    "styles": {
-      // styles of the card component
+    "style": {
+      // style of the card component
       "marginBottom": 24,
       "backgroundColor": "#fff"
     },

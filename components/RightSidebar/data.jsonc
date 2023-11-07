@@ -108,7 +108,7 @@
 			"icon": "FacebookOutline",
 			"url": "https://facebook.com",
 			"size": 8,
-			"styles": {
+			"style": {
 				"color": "#fff",
 				"bgColor": "#4267B2"
 			}
@@ -117,7 +117,7 @@
 			"icon": "TwitterOutline",
 			"url": "https://twitter.com",
 			"size": 12,
-			"styles": {
+			"style": {
 				"color": "#1DA1F2",
 				"bgColor": "#fff",
 				"borderColor": "#1DA1F2"
@@ -127,7 +127,7 @@
 			"icon": "LinkedinOutline",
 			"url": "https://linkedin.com",
 			"size": 11,
-			"styles": {
+			"style": {
 				"color": "#fff",
 				"bgColor": "#0077b5"
 			}

@@ -3,7 +3,7 @@ const structures = {
     title: 'Basic Information',
     icon: 'ProfileFill',
     cols: 3,
-    styles: {
+    style: {
       marginBottom: 24,
       backgroundColor: '#fff',
     },
@@ -17,7 +17,7 @@ const structures = {
   InformationTable: {
     title: 'Visa Information',
     icon: 'Certificate',
-    styles: {
+    style: {
       backgroundColor: '#fff',
     },
     actionsButton: {
