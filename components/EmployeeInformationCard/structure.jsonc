@@ -22,7 +22,7 @@
             "title": "Full Name",
             "label": "Full Name",
             "name": "full_name",
-            "defaultValue": "Nijam Ali",
+            "defaultValue": "Random Employee",
             "helpText": "this is tooltip or help text",
             "props": {
               "placeholder": "Enter your name"
