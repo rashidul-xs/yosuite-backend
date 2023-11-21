@@ -84,6 +84,19 @@
         }
       },
       {
+        "path": "/people/employee-profile",
+        "label": "Employee Profile",
+        "layoutComponent": "CommonLayout",
+        "innerComponents": {
+          "header": "Heading",
+          "breadcrumb": "Breadcrumb",
+          "EmployeeInformationCard": "InformationCard",
+          "BasicInformationTable": "InformationTable",
+          "timeline": "TimelineHistory",
+          "RightSidebar": "RightSidebar"
+        }
+      },
+      {
         "path": "/people/:id",
         "label": "Dynamic ID",
         "layoutComponent": "CommonLayout",
