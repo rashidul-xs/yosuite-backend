@@ -16,7 +16,7 @@
       "targetComponentStructure": {
         "submissionUrl": "https://jsonplaceholder.typicode.com/posts",
         "apiMethod": "POST",
-        "elements": [
+        "fixedElements": [
           {
             "component": "Input",
             "title": "Full Name",

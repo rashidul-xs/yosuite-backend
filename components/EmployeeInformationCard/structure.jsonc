@@ -16,7 +16,7 @@
       "targetComponentStructure": {
         "submissionUrl": "https://jsonplaceholder.typicode.com/posts",
         "apiMethod": "POST",
-        "elements": [
+        "fixedElements": [
           {
             "component": "Input",
             "title": "Full Name",
@@ -180,6 +180,16 @@
             }
           }
           //....rest form fileds
+        ],
+        "customElements":[
+          {
+            "component": "Input",
+            "title": "Custom Field",
+            "label": "Custom Field",
+            "name": "custom_field",
+            "defaultValue": "Custom Field",
+            "helpText": "this is tooltip or help text"
+          }
         ]
       },
       "placement": "top"
